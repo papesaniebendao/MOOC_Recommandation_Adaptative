@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<XMLDB PATH="blocks/dropguard/db" VERSION="20260501" COMMENT="DropGuard — Tables de données">
+  <TABLES>
+    <TABLE NAME="block_dropguard_results" COMMENT="Résultats DropGuard par étudiant et par cours">
+      <FIELDS>
+        <FIELD NAME="id"                    TYPE="int"    LENGTH="10" NOTNULL="true" SEQUENCE="true"/>
+        <FIELD NAME="userid"                TYPE="int"    LENGTH="10" NOTNULL="true"/>
+        <FIELD NAME="courseid"              TYPE="int"    LENGTH="10" NOTNULL="true"/>
+        <FIELD NAME="dropout_score"         TYPE="number" LENGTH="10" NOTNULL="true" DECIMALS="4"/>
+        <FIELD NAME="niveau_risque"         TYPE="char"   LENGTH="20" NOTNULL="true"/>
+        <FIELD NAME="cause_principale"      TYPE="char"   LENGTH="50" NOTNULL="true"/>
+        <FIELD NAME="cluster_id"            TYPE="int"    LENGTH="2"  NOTNULL="true"/>
+        <FIELD NAME="cluster_name"          TYPE="char"   LENGTH="50" NOTNULL="true"/>
+        <FIELD NAME="activites_recommandees" TYPE="text"  NOTNULL="false"/>
+        <FIELD NAME="message_motivation"    TYPE="text"   NOTNULL="false"/>
+        <FIELD NAME="notification_envoyee"  TYPE="int"    LENGTH="1"  NOTNULL="true" DEFAULT="0"/>
+        <FIELD NAME="timecreated"           TYPE="int"    LENGTH="10" NOTNULL="true"/>
+        <FIELD NAME="timemodified"          TYPE="int"    LENGTH="10" NOTNULL="true"/>
+      </FIELDS>
+      <KEYS>
+        <KEY NAME="primary" TYPE="primary" FIELDS="id"/>
+        <KEY NAME="userid"  TYPE="foreign" FIELDS="userid"   REFTABLE="user"   REFFIELDS="id"/>
+        <KEY NAME="courseid" TYPE="foreign" FIELDS="courseid" REFTABLE="course" REFFIELDS="id"/>
+      </KEYS>
+      <INDEXES>
+        <INDEX NAME="userid_courseid" UNIQUE="true" FIELDS="userid, courseid"/>
+        <INDEX NAME="niveau_risque"   UNIQUE="false" FIELDS="niveau_risque"/>
+      </INDEXES>
+    </TABLE>
+
+    <TABLE NAME="block_dropguard_config" COMMENT="Configuration globale DropGuard">
+      <FIELDS>
+        <FIELD NAME="id"          TYPE="int"  LENGTH="10" NOTNULL="true" SEQUENCE="true"/>
+        <FIELD NAME="api_url"     TYPE="char" LENGTH="255" NOTNULL="true" DEFAULT="http://localhost:8000"/>
+        <FIELD NAME="api_key"     TYPE="char" LENGTH="255" NOTNULL="false"/>
+        <FIELD NAME="seuil_critique" TYPE="number" LENGTH="4" NOTNULL="true" DECIMALS="2" DEFAULT="0.70"/>
+        <FIELD NAME="seuil_modere"   TYPE="number" LENGTH="4" NOTNULL="true" DECIMALS="2" DEFAULT="0.50"/>
+        <FIELD NAME="cutoff_days"    TYPE="int"    LENGTH="3"  NOTNULL="true" DEFAULT="28"/>
+        <FIELD NAME="actif"          TYPE="int"    LENGTH="1"  NOTNULL="true" DEFAULT="1"/>
+        <FIELD NAME="timecreated"    TYPE="int"    LENGTH="10" NOTNULL="true"/>
+        <FIELD NAME="timemodified"   TYPE="int"    LENGTH="10" NOTNULL="true"/>
+      </FIELDS>
+      <KEYS>
+        <KEY NAME="primary" TYPE="primary" FIELDS="id"/>
+      </KEYS>
+    </TABLE>
+  </TABLES>
+</XMLDB>

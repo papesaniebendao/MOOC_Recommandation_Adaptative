@@ -1,0 +1,13 @@
+{
+  "total_etudiants_risque": 10411,
+  "critique": 7136,
+  "modere": 3275,
+  "faible": 0,
+  "cause_distribution": {
+    "inactivite": 6978,
+    "difficulte_academique": 2628,
+    "surcharge": 631,
+    "desengagement_module": 174
+  },
+  "cutoff_utilise": 42
+}

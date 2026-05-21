@@ -1,0 +1,3042 @@
+[
+  {
+    "id_student": 30268,
+    "code_module": "AAA",
+    "code_presentation": "2013J",
+    "dropout_score": 0.8838,
+    "niveau_risque": "critique",
+    "emoji_risque": "🔴",
+    "cause_principale": "inactivite",
+    "cause_label": "Inactivité comportementale",
+    "action": "ALERTE TUTEUR — Étudiant inactif depuis plusieurs jours",
+    "intervention": "Contact direct dans les 24h. Vérifier les obstacles (technique, motivation, personnel).",
+    "ressources": [
+      "Forum d'entraide",
+      "Session de rattrapage",
+      "Support tuteur"
+    ],
+    "urgence": 3,
+    "facteurs_shap": {
+      "Dernier jour d'activité": 1.3187,
+      "Jours actifs": 0.1139,
+      "Durée d'engagement": 0.0679
+    },
+    "donnees_etudiant": {
+      "total_clicks": 281.0,
+      "total_days_active": 12.0,
+      "last_activity_day": 12.0,
+      "avg_score": NaN,
+      "num_submitted_assessments": NaN,
+      "studied_credits": 60.0
+    }
+  },
+  {
+    "id_student": 65002,
+    "code_module": "AAA",
+    "code_presentation": "2013J",
+    "dropout_score": 0.674,
+    "niveau_risque": "modere",
+    "emoji_risque": "🟠",
+    "cause_principale": "difficulte_academique",
+    "cause_label": "Difficulté académique",
+    "action": "SOUTIEN ACADÉMIQUE — Renforcement ciblé",
+    "intervention": "Proposer des exercices supplémentaires sur les notions en difficulté.",
+    "ressources": [
+      "Exercices supplémentaires",
+      "Vidéos explicatives",
+      "Quiz de vérification"
+    ],
+    "urgence": 2,
+    "facteurs_shap": {
+      "Évaluations soumises": 0.7232,
+      "Moyenne CMA": 0.3703,
+      "Score moyen": 0.1089
+    },
+    "donnees_etudiant": {
+      "total_clicks": 97.0,
+      "total_days_active": 7.0,
+      "last_activity_day": 37.0,
+      "avg_score": 66.66666666666667,
+      "num_submitted_assessments": 3.0,
+      "studied_credits": 60.0
+    }
+  },
+  {
+    "id_student": 94961,
+    "code_module": "AAA",
+    "code_presentation": "2013J",
+    "dropout_score": 0.5207,
+    "niveau_risque": "modere",
+    "emoji_risque": "🟠",
+    "cause_principale": "difficulte_academique",
+    "cause_label": "Difficulté académique",
+    "action": "SOUTIEN ACADÉMIQUE — Renforcement ciblé",
+    "intervention": "Proposer des exercices supplémentaires sur les notions en difficulté.",
+    "ressources": [
+      "Exercices supplémentaires",
+      "Vidéos explicatives",
+      "Quiz de vérification"
+    ],
+    "urgence": 2,
+    "facteurs_shap": {
+      "Moyenne CMA": 0.1935,
+      "Évaluations soumises": 0.125
+    },
+    "donnees_etudiant": {
+      "total_clicks": 294.0,
+      "total_days_active": 19.0,
+      "last_activity_day": 30.0,
+      "avg_score": 74.0,
+      "num_submitted_assessments": 2.0,
+      "studied_credits": 60.0
+    }
+  },
+  {
+    "id_student": 129955,
+    "code_module": "AAA",
+    "code_presentation": "2013J",
+    "dropout_score": 0.7567,
+    "niveau_risque": "critique",
+    "emoji_risque": "🔴",
+    "cause_principale": "difficulte_academique",
+    "cause_label": "Difficulté académique",
+    "action": "SOUTIEN ACADÉMIQUE URGENT — Intervention pédagogique immédiate",
+    "intervention": "Orienter vers ressources de remédiation. Proposer une session de tutorat.",
+    "ressources": [
+      "Ressources de remédiation",
+      "Tutorat individuel",
+      "Exercices corrigés"
+    ],
+    "urgence": 3,
+    "facteurs_shap": {
+      "Évaluations soumises": 1.3832,
+      "Moyenne CMA": 0.561
+    },
+    "donnees_etudiant": {
+      "total_clicks": 479.0,
+      "total_days_active": 35.0,
+      "last_activity_day": 42.0,
+      "avg_score": 82.0,
+      "num_submitted_assessments": 4.0,
+      "studied_credits": 60.0
+    }
+  },
+  {
+    "id_student": 135335,
+    "code_module": "AAA",
+    "code_presentation": "2013J",
+    "dropout_score": 0.8514,
+    "niveau_risque": "critique",
+    "emoji_risque": "🔴",
+    "cause_principale": "inactivite",
+    "cause_label": "Inactivité comportementale",
+    "action": "ALERTE TUTEUR — Étudiant inactif depuis plusieurs jours",
+    "intervention": "Contact direct dans les 24h. Vérifier les obstacles (technique, motivation, personnel).",
+    "ressources": [
+      "Forum d'entraide",
+      "Session de rattrapage",
+      "Support tuteur"
+    ],
+    "urgence": 3,
+    "facteurs_shap": {
+      "Dernier jour d'activité": 0.533,
+      "Jours actifs": 0.0791,
+      "Clics totaux": 0.0439
+    },
+    "donnees_etudiant": {
+      "total_clicks": 57.0,
+      "total_days_active": 10.0,
+      "last_activity_day": 24.0,
+      "avg_score": NaN,
+      "num_submitted_assessments": NaN,
+      "studied_credits": 180.0
+    }
+  },
+  {
+    "id_student": 141377,
+    "code_module": "AAA",
+    "code_presentation": "2013J",
+    "dropout_score": 0.6556,
+    "niveau_risque": "modere",
+    "emoji_risque": "🟠",
+    "cause_principale": "surcharge",
+    "cause_label": "Surcharge de crédits",
+    "action": "CONSEIL ORGANISATION — Aide à la priorisation",
+    "intervention": "Envoyer des conseils de gestion du temps. Proposer un planning hebdomadaire.",
+    "ressources": [
+      "Guide organisation",
+      "Planning type",
+      "Outils de gestion du temps"
+    ],
+    "urgence": 2,
+    "facteurs_shap": {
+      "Crédits inscrits": 0.801
+    },
+    "donnees_etudiant": {
+      "total_clicks": 7.0,
+      "total_days_active": 3.0,
+      "last_activity_day": 17.0,
+      "avg_score": 65.0,
+      "num_submitted_assessments": 1.0,
+      "studied_credits": 345.0
+    }
+  },
+  {
+    "id_student": 151358,
+    "code_module": "AAA",
+    "code_presentation": "2013J",
+    "dropout_score": 0.5296,
+    "niveau_risque": "modere",
+    "emoji_risque": "🟠",
+    "cause_principale": "inactivite",
+    "cause_label": "Inactivité comportementale",
+    "action": "NUDGE DE MOTIVATION — Relance par notification",
+    "intervention": "Envoyer un message de rappel personnalisé. Suggérer une ressource courte et accessible.",
+    "ressources": [
+      "Vidéo récapitulative",
+      "Quiz rapide",
+      "Forum de discussion"
+    ],
+    "urgence": 2,
+    "facteurs_shap": {
+      "Dernier jour d'activité": 0.2215,
+      "Durée d'engagement": 0.2157,
+      "Clics totaux": 0.0277
+    },
+    "donnees_etudiant": {
+      "total_clicks": 37.0,
+      "total_days_active": 5.0,
+      "last_activity_day": 17.0,
+      "avg_score": 54.0,
+      "num_submitted_assessments": 1.0,
+      "studied_credits": 150.0
+    }
+  },
+  {
+    "id_student": 159954,
+    "code_module": "AAA",
+    "code_presentation": "2013J",
+    "dropout_score": 0.5858,
+    "niveau_risque": "modere",
+    "emoji_risque": "🟠",
+    "cause_principale": "difficulte_academique",
+    "cause_label": "Difficulté académique",
+    "action": "SOUTIEN ACADÉMIQUE — Renforcement ciblé",
+    "intervention": "Proposer des exercices supplémentaires sur les notions en difficulté.",
+    "ressources": [
+      "Exercices supplémentaires",
+      "Vidéos explicatives",
+      "Quiz de vérification"
+    ],
+    "urgence": 2,
+    "facteurs_shap": {
+      "Évaluations soumises": 0.6812,
+      "Moyenne CMA": 0.4241,
+      "Score moyen": 0.2181
+    },
+    "donnees_etudiant": {
+      "total_clicks": 665.0,
+      "total_days_active": 35.0,
+      "last_activity_day": 42.0,
+      "avg_score": 66.0,
+      "num_submitted_assessments": 3.0,
+      "studied_credits": 60.0
+    }
+  },
+  {
+    "id_student": 235507,
+    "code_module": "AAA",
+    "code_presentation": "2013J",
+    "dropout_score": 0.6642,
+    "niveau_risque": "modere",
+    "emoji_risque": "🟠",
+    "cause_principale": "surcharge",
+    "cause_label": "Surcharge de crédits",
+    "action": "CONSEIL ORGANISATION — Aide à la priorisation",
+    "intervention": "Envoyer des conseils de gestion du temps. Proposer un planning hebdomadaire.",
+    "ressources": [
+      "Guide organisation",
+      "Planning type",
+      "Outils de gestion du temps"
+    ],
+    "urgence": 2,
+    "facteurs_shap": {
+      "Crédits inscrits": 1.0031
+    },
+    "donnees_etudiant": {
+      "total_clicks": 184.0,
+      "total_days_active": 19.0,
+      "last_activity_day": 40.0,
+      "avg_score": 63.5,
+      "num_submitted_assessments": 2.0,
+      "studied_credits": 240.0
+    }
+  },
+  {
+    "id_student": 277880,
+    "code_module": "AAA",
+    "code_presentation": "2013J",
+    "dropout_score": 0.8257,
+    "niveau_risque": "critique",
+    "emoji_risque": "🔴",
+    "cause_principale": "difficulte_academique",
+    "cause_label": "Difficulté académique",
+    "action": "SOUTIEN ACADÉMIQUE URGENT — Intervention pédagogique immédiate",
+    "intervention": "Orienter vers ressources de remédiation. Proposer une session de tutorat.",
+    "ressources": [
+      "Ressources de remédiation",
+      "Tutorat individuel",
+      "Exercices corrigés"
+    ],
+    "urgence": 3,
+    "facteurs_shap": {
+      "Évaluations soumises": 1.28,
+      "Moyenne CMA": 0.5828,
+      "Score moyen": 0.133
+    },
+    "donnees_etudiant": {
+      "total_clicks": 1154.0,
+      "total_days_active": 26.0,
+      "last_activity_day": 37.0,
+      "avg_score": 68.25,
+      "num_submitted_assessments": 4.0,
+      "studied_credits": 60.0
+    }
+  },
+  {
+    "id_student": 292923,
+    "code_module": "AAA",
+    "code_presentation": "2013J",
+    "dropout_score": 0.9777,
+    "niveau_risque": "critique",
+    "emoji_risque": "🔴",
+    "cause_principale": "inactivite",
+    "cause_label": "Inactivité comportementale",
+    "action": "ALERTE TUTEUR — Étudiant inactif depuis plusieurs jours",
+    "intervention": "Contact direct dans les 24h. Vérifier les obstacles (technique, motivation, personnel).",
+    "ressources": [
+      "Forum d'entraide",
+      "Session de rattrapage",
+      "Support tuteur"
+    ],
+    "urgence": 3,
+    "facteurs_shap": {
+      "Dernier jour d'activité": 1.9216,
+      "Durée d'engagement": 0.2983,
+      "Clics totaux": 0.2033
+    },
+    "donnees_etudiant": {
+      "total_clicks": 0.0,
+      "total_days_active": 0.0,
+      "last_activity_day": 0.0,
+      "avg_score": NaN,
+      "num_submitted_assessments": NaN,
+      "studied_credits": 180.0
+    }
+  },
+  {
+    "id_student": 293699,
+    "code_module": "AAA",
+    "code_presentation": "2013J",
+    "dropout_score": 0.6802,
+    "niveau_risque": "modere",
+    "emoji_risque": "🟠",
+    "cause_principale": "difficulte_academique",
+    "cause_label": "Difficulté académique",
+    "action": "SOUTIEN ACADÉMIQUE — Renforcement ciblé",
+    "intervention": "Proposer des exercices supplémentaires sur les notions en difficulté.",
+    "ressources": [
+      "Exercices supplémentaires",
+      "Vidéos explicatives",
+      "Quiz de vérification"
+    ],
+    "urgence": 2,
+    "facteurs_shap": {
+      "Score moyen": 0.2958,
+      "Moyenne TMA": 0.1496,
+      "Moyenne CMA": 0.0955
+    },
+    "donnees_etudiant": {
+      "total_clicks": 12.0,
+      "total_days_active": 3.0,
+      "last_activity_day": 32.0,
+      "avg_score": NaN,
+      "num_submitted_assessments": NaN,
+      "studied_credits": 120.0
+    }
+  },
+  {
+    "id_student": 305539,
+    "code_module": "AAA",
+    "code_presentation": "2013J",
+    "dropout_score": 0.911,
+    "niveau_risque": "critique",
+    "emoji_risque": "🔴",
+    "cause_principale": "inactivite",
+    "cause_label": "Inactivité comportementale",
+    "action": "ALERTE TUTEUR — Étudiant inactif depuis plusieurs jours",
+    "intervention": "Contact direct dans les 24h. Vérifier les obstacles (technique, motivation, personnel).",
+    "ressources": [
+      "Forum d'entraide",
+      "Session de rattrapage",
+      "Support tuteur"
+    ],
+    "urgence": 3,
+    "facteurs_shap": {
+      "Dernier jour d'activité": 1.685,
+      "Durée d'engagement": 0.2393,
+      "Clics totaux": 0.0386
+    },
+    "donnees_etudiant": {
+      "total_clicks": 68.0,
+      "total_days_active": 6.0,
+      "last_activity_day": -5.0,
+      "avg_score": NaN,
+      "num_submitted_assessments": NaN,
+      "studied_credits": 120.0
+    }
+  },
+  {
+    "id_student": 334333,
+    "code_module": "AAA",
+    "code_presentation": "2013J",
+    "dropout_score": 0.7922,
+    "niveau_risque": "critique",
+    "emoji_risque": "🔴",
+    "cause_principale": "surcharge",
+    "cause_label": "Surcharge de crédits",
+    "action": "ALERTE SURCHARGE — Accompagnement personnalisé",
+    "intervention": "Rencontrer l'étudiant pour évaluer sa charge de travail. Proposer un allègement.",
+    "ressources": [
+      "Entretien conseiller",
+      "Plan de travail adapté"
+    ],
+    "urgence": 3,
+    "facteurs_shap": {
+      "Crédits inscrits": 1.0192
+    },
+    "donnees_etudiant": {
+      "total_clicks": 284.0,
+      "total_days_active": 26.0,
+      "last_activity_day": 39.0,
+      "avg_score": 36.0,
+      "num_submitted_assessments": 1.0,
+      "studied_credits": 240.0
+    }
+  },
+  {
+    "id_student": 335764,
+    "code_module": "AAA",
+    "code_presentation": "2013J",
+    "dropout_score": 0.7338,
+    "niveau_risque": "critique",
+    "emoji_risque": "🔴",
+    "cause_principale": "difficulte_academique",
+    "cause_label": "Difficulté académique",
+    "action": "SOUTIEN ACADÉMIQUE URGENT — Intervention pédagogique immédiate",
+    "intervention": "Orienter vers ressources de remédiation. Proposer une session de tutorat.",
+    "ressources": [
+      "Ressources de remédiation",
+      "Tutorat individuel",
+      "Exercices corrigés"
+    ],
+    "urgence": 3,
+    "facteurs_shap": {
+      "Évaluations soumises": 1.3538,
+      "Moyenne CMA": 0.5131
+    },
+    "donnees_etudiant": {
+      "total_clicks": 1276.0,
+      "total_days_active": 42.0,
+      "last_activity_day": 42.0,
+      "avg_score": 86.25,
+      "num_submitted_assessments": 4.0,
+      "studied_credits": 60.0
+    }
+  },
+  {
+    "id_student": 341872,
+    "code_module": "AAA",
+    "code_presentation": "2013J",
+    "dropout_score": 0.9756,
+    "niveau_risque": "critique",
+    "emoji_risque": "🔴",
+    "cause_principale": "inactivite",
+    "cause_label": "Inactivité comportementale",
+    "action": "ALERTE TUTEUR — Étudiant inactif depuis plusieurs jours",
+    "intervention": "Contact direct dans les 24h. Vérifier les obstacles (technique, motivation, personnel).",
+    "ressources": [
+      "Forum d'entraide",
+      "Session de rattrapage",
+      "Support tuteur"
+    ],
+    "urgence": 3,
+    "facteurs_shap": {
+      "Dernier jour d'activité": 1.8416,
+      "Durée d'engagement": 0.2833,
+      "Clics totaux": 0.1908
+    },
+    "donnees_etudiant": {
+      "total_clicks": 0.0,
+      "total_days_active": 0.0,
+      "last_activity_day": 0.0,
+      "avg_score": NaN,
+      "num_submitted_assessments": NaN,
+      "studied_credits": 180.0
+    }
+  },
+  {
+    "id_student": 354858,
+    "code_module": "AAA",
+    "code_presentation": "2013J",
+    "dropout_score": 0.9458,
+    "niveau_risque": "critique",
+    "emoji_risque": "🔴",
+    "cause_principale": "inactivite",
+    "cause_label": "Inactivité comportementale",
+    "action": "ALERTE TUTEUR — Étudiant inactif depuis plusieurs jours",
+    "intervention": "Contact direct dans les 24h. Vérifier les obstacles (technique, motivation, personnel).",
+    "ressources": [
+      "Forum d'entraide",
+      "Session de rattrapage",
+      "Support tuteur"
+    ],
+    "urgence": 3,
+    "facteurs_shap": {
+      "Dernier jour d'activité": 1.7524,
+      "Durée d'engagement": 0.313,
+      "Clics totaux": 0.0667
+    },
+    "donnees_etudiant": {
+      "total_clicks": 198.0,
+      "total_days_active": 7.0,
+      "last_activity_day": 1.0,
+      "avg_score": NaN,
+      "num_submitted_assessments": NaN,
+      "studied_credits": 120.0
+    }
+  },
+  {
+    "id_student": 368824,
+    "code_module": "AAA",
+    "code_presentation": "2013J",
+    "dropout_score": 0.6716,
+    "niveau_risque": "modere",
+    "emoji_risque": "🟠",
+    "cause_principale": "inactivite",
+    "cause_label": "Inactivité comportementale",
+    "action": "NUDGE DE MOTIVATION — Relance par notification",
+    "intervention": "Envoyer un message de rappel personnalisé. Suggérer une ressource courte et accessible.",
+    "ressources": [
+      "Vidéo récapitulative",
+      "Quiz rapide",
+      "Forum de discussion"
+    ],
+    "urgence": 2,
+    "facteurs_shap": {
+      "Dernier jour d'activité": 0.9532,
+      "Durée d'engagement": 0.2785
+    },
+    "donnees_etudiant": {
+      "total_clicks": 72.0,
+      "total_days_active": 3.0,
+      "last_activity_day": 8.0,
+      "avg_score": 61.0,
+      "num_submitted_assessments": 1.0,
+      "studied_credits": 120.0
+    }
+  },
+  {
+    "id_student": 390890,
+    "code_module": "AAA",
+    "code_presentation": "2013J",
+    "dropout_score": 0.8179,
+    "niveau_risque": "critique",
+    "emoji_risque": "🔴",
+    "cause_principale": "difficulte_academique",
+    "cause_label": "Difficulté académique",
+    "action": "SOUTIEN ACADÉMIQUE URGENT — Intervention pédagogique immédiate",
+    "intervention": "Orienter vers ressources de remédiation. Proposer une session de tutorat.",
+    "ressources": [
+      "Ressources de remédiation",
+      "Tutorat individuel",
+      "Exercices corrigés"
+    ],
+    "urgence": 3,
+    "facteurs_shap": {
+      "Évaluations soumises": 1.3098,
+      "Moyenne CMA": 0.5331,
+      "Score moyen": 0.0461
+    },
+    "donnees_etudiant": {
+      "total_clicks": 354.0,
+      "total_days_active": 22.0,
+      "last_activity_day": 41.0,
+      "avg_score": 71.0,
+      "num_submitted_assessments": 4.0,
+      "studied_credits": 90.0
+    }
+  },
+  {
+    "id_student": 404804,
+    "code_module": "AAA",
+    "code_presentation": "2013J",
+    "dropout_score": 0.6216,
+    "niveau_risque": "modere",
+    "emoji_risque": "🟠",
+    "cause_principale": "inactivite",
+    "cause_label": "Inactivité comportementale",
+    "action": "NUDGE DE MOTIVATION — Relance par notification",
+    "intervention": "Envoyer un message de rappel personnalisé. Suggérer une ressource courte et accessible.",
+    "ressources": [
+      "Vidéo récapitulative",
+      "Quiz rapide",
+      "Forum de discussion"
+    ],
+    "urgence": 2,
+    "facteurs_shap": {
+      "Dernier jour d'activité": 0.4787,
+      "Jours actifs": 0.0933,
+      "Clics totaux": 0.0043
+    },
+    "donnees_etudiant": {
+      "total_clicks": 375.0,
+      "total_days_active": 15.0,
+      "last_activity_day": 23.0,
+      "avg_score": 52.0,
+      "num_submitted_assessments": 1.0,
+      "studied_credits": 120.0
+    }
+  },
+  {
+    "id_student": 405961,
+    "code_module": "AAA",
+    "code_presentation": "2013J",
+    "dropout_score": 0.9645,
+    "niveau_risque": "critique",
+    "emoji_risque": "🔴",
+    "cause_principale": "inactivite",
+    "cause_label": "Inactivité comportementale",
+    "action": "ALERTE TUTEUR — Étudiant inactif depuis plusieurs jours",
+    "intervention": "Contact direct dans les 24h. Vérifier les obstacles (technique, motivation, personnel).",
+    "ressources": [
+      "Forum d'entraide",
+      "Session de rattrapage",
+      "Support tuteur"
+    ],
+    "urgence": 3,
+    "facteurs_shap": {
+      "Dernier jour d'activité": 1.6107,
+      "Durée d'engagement": 0.2465,
+      "Clics totaux": 0.1598
+    },
+    "donnees_etudiant": {
+      "total_clicks": 0.0,
+      "total_days_active": 0.0,
+      "last_activity_day": 0.0,
+      "avg_score": NaN,
+      "num_submitted_assessments": NaN,
+      "studied_credits": 240.0
+    }
+  },
+  {
+    "id_student": 415969,
+    "code_module": "AAA",
+    "code_presentation": "2013J",
+    "dropout_score": 0.9001,
+    "niveau_risque": "critique",
+    "emoji_risque": "🔴",
+    "cause_principale": "difficulte_academique",
+    "cause_label": "Difficulté académique",
+    "action": "SOUTIEN ACADÉMIQUE URGENT — Intervention pédagogique immédiate",
+    "intervention": "Orienter vers ressources de remédiation. Proposer une session de tutorat.",
+    "ressources": [
+      "Ressources de remédiation",
+      "Tutorat individuel",
+      "Exercices corrigés"
+    ],
+    "urgence": 3,
+    "facteurs_shap": {
+      "Évaluations soumises": 1.2323,
+      "Moyenne CMA": 0.5182,
+      "Score moyen": 0.1741
+    },
+    "donnees_etudiant": {
+      "total_clicks": 1015.0,
+      "total_days_active": 30.0,
+      "last_activity_day": 37.0,
+      "avg_score": 61.5,
+      "num_submitted_assessments": 4.0,
+      "studied_credits": 90.0
+    }
+  },
+  {
+    "id_student": 442442,
+    "code_module": "AAA",
+    "code_presentation": "2013J",
+    "dropout_score": 0.5301,
+    "niveau_risque": "modere",
+    "emoji_risque": "🟠",
+    "cause_principale": "difficulte_academique",
+    "cause_label": "Difficulté académique",
+    "action": "SOUTIEN ACADÉMIQUE — Renforcement ciblé",
+    "intervention": "Proposer des exercices supplémentaires sur les notions en difficulté.",
+    "ressources": [
+      "Exercices supplémentaires",
+      "Vidéos explicatives",
+      "Quiz de vérification"
+    ],
+    "urgence": 2,
+    "facteurs_shap": {
+      "Score moyen": 0.3466,
+      "Moyenne TMA": 0.3414,
+      "Moyenne CMA": 0.0933
+    },
+    "donnees_etudiant": {
+      "total_clicks": 647.0,
+      "total_days_active": 25.0,
+      "last_activity_day": 37.0,
+      "avg_score": 39.0,
+      "num_submitted_assessments": 1.0,
+      "studied_credits": 120.0
+    }
+  },
+  {
+    "id_student": 494424,
+    "code_module": "AAA",
+    "code_presentation": "2013J",
+    "dropout_score": 0.6346,
+    "niveau_risque": "modere",
+    "emoji_risque": "🟠",
+    "cause_principale": "inactivite",
+    "cause_label": "Inactivité comportementale",
+    "action": "NUDGE DE MOTIVATION — Relance par notification",
+    "intervention": "Envoyer un message de rappel personnalisé. Suggérer une ressource courte et accessible.",
+    "ressources": [
+      "Vidéo récapitulative",
+      "Quiz rapide",
+      "Forum de discussion"
+    ],
+    "urgence": 2,
+    "facteurs_shap": {
+      "Dernier jour d'activité": 0.5419,
+      "Clics totaux": 0.0099
+    },
+    "donnees_etudiant": {
+      "total_clicks": 58.0,
+      "total_days_active": 2.0,
+      "last_activity_day": 18.0,
+      "avg_score": NaN,
+      "num_submitted_assessments": NaN,
+      "studied_credits": 60.0
+    }
+  },
+  {
+    "id_student": 603861,
+    "code_module": "AAA",
+    "code_presentation": "2013J",
+    "dropout_score": 0.9578,
+    "niveau_risque": "critique",
+    "emoji_risque": "🔴",
+    "cause_principale": "difficulte_academique",
+    "cause_label": "Difficulté académique",
+    "action": "SOUTIEN ACADÉMIQUE URGENT — Intervention pédagogique immédiate",
+    "intervention": "Orienter vers ressources de remédiation. Proposer une session de tutorat.",
+    "ressources": [
+      "Ressources de remédiation",
+      "Tutorat individuel",
+      "Exercices corrigés"
+    ],
+    "urgence": 3,
+    "facteurs_shap": {
+      "Évaluations soumises": 2.3769,
+      "Moyenne CMA": 0.4723,
+      "Score moyen": 0.0898
+    },
+    "donnees_etudiant": {
+      "total_clicks": 337.0,
+      "total_days_active": 24.0,
+      "last_activity_day": 38.0,
+      "avg_score": 62.66666666666666,
+      "num_submitted_assessments": 6.0,
+      "studied_credits": 60.0
+    }
+  },
+  {
+    "id_student": 721259,
+    "code_module": "AAA",
+    "code_presentation": "2013J",
+    "dropout_score": 0.8635,
+    "niveau_risque": "critique",
+    "emoji_risque": "🔴",
+    "cause_principale": "inactivite",
+    "cause_label": "Inactivité comportementale",
+    "action": "ALERTE TUTEUR — Étudiant inactif depuis plusieurs jours",
+    "intervention": "Contact direct dans les 24h. Vérifier les obstacles (technique, motivation, personnel).",
+    "ressources": [
+      "Forum d'entraide",
+      "Session de rattrapage",
+      "Support tuteur"
+    ],
+    "urgence": 3,
+    "facteurs_shap": {
+      "Dernier jour d'activité": 0.6774,
+      "Clics moyens/jour": 0.1167,
+      "Jours actifs": 0.1114
+    },
+    "donnees_etudiant": {
+      "total_clicks": 1228.0,
+      "total_days_active": 27.0,
+      "last_activity_day": 20.0,
+      "avg_score": 65.0,
+      "num_submitted_assessments": 2.0,
+      "studied_credits": 120.0
+    }
+  },
+  {
+    "id_student": 1352868,
+    "code_module": "AAA",
+    "code_presentation": "2013J",
+    "dropout_score": 0.6719,
+    "niveau_risque": "modere",
+    "emoji_risque": "🟠",
+    "cause_principale": "inactivite",
+    "cause_label": "Inactivité comportementale",
+    "action": "NUDGE DE MOTIVATION — Relance par notification",
+    "intervention": "Envoyer un message de rappel personnalisé. Suggérer une ressource courte et accessible.",
+    "ressources": [
+      "Vidéo récapitulative",
+      "Quiz rapide",
+      "Forum de discussion"
+    ],
+    "urgence": 2,
+    "facteurs_shap": {
+      "Dernier jour d'activité": 0.5743,
+      "Jours actifs": 0.0903,
+      "Clics moyens/jour": 0.0054
+    },
+    "donnees_etudiant": {
+      "total_clicks": 380.0,
+      "total_days_active": 13.0,
+      "last_activity_day": 20.0,
+      "avg_score": 74.0,
+      "num_submitted_assessments": 2.0,
+      "studied_credits": 60.0
+    }
+  },
+  {
+    "id_student": 1456619,
+    "code_module": "AAA",
+    "code_presentation": "2013J",
+    "dropout_score": 0.5053,
+    "niveau_risque": "modere",
+    "emoji_risque": "🟠",
+    "cause_principale": "inactivite",
+    "cause_label": "Inactivité comportementale",
+    "action": "NUDGE DE MOTIVATION — Relance par notification",
+    "intervention": "Envoyer un message de rappel personnalisé. Suggérer une ressource courte et accessible.",
+    "ressources": [
+      "Vidéo récapitulative",
+      "Quiz rapide",
+      "Forum de discussion"
+    ],
+    "urgence": 2,
+    "facteurs_shap": {
+      "Dernier jour d'activité": 0.5064,
+      "Jours actifs": 0.0715
+    },
+    "donnees_etudiant": {
+      "total_clicks": 467.0,
+      "total_days_active": 22.0,
+      "last_activity_day": 24.0,
+      "avg_score": 63.0,
+      "num_submitted_assessments": 1.0,
+      "studied_credits": 60.0
+    }
+  },
+  {
+    "id_student": 1472925,
+    "code_module": "AAA",
+    "code_presentation": "2013J",
+    "dropout_score": 0.508,
+    "niveau_risque": "modere",
+    "emoji_risque": "🟠",
+    "cause_principale": "difficulte_academique",
+    "cause_label": "Difficulté académique",
+    "action": "SOUTIEN ACADÉMIQUE — Renforcement ciblé",
+    "intervention": "Proposer des exercices supplémentaires sur les notions en difficulté.",
+    "ressources": [
+      "Exercices supplémentaires",
+      "Vidéos explicatives",
+      "Quiz de vérification"
+    ],
+    "urgence": 2,
+    "facteurs_shap": {
+      "Moyenne CMA": 0.1641,
+      "Score moyen": 0.1338,
+      "Moyenne TMA": 0.1115
+    },
+    "donnees_etudiant": {
+      "total_clicks": 247.0,
+      "total_days_active": 10.0,
+      "last_activity_day": 41.0,
+      "avg_score": 59.5,
+      "num_submitted_assessments": 2.0,
+      "studied_credits": 60.0
+    }
+  },
+  {
+    "id_student": 1686521,
+    "code_module": "AAA",
+    "code_presentation": "2013J",
+    "dropout_score": 0.5659,
+    "niveau_risque": "modere",
+    "emoji_risque": "🟠",
+    "cause_principale": "inactivite",
+    "cause_label": "Inactivité comportementale",
+    "action": "NUDGE DE MOTIVATION — Relance par notification",
+    "intervention": "Envoyer un message de rappel personnalisé. Suggérer une ressource courte et accessible.",
+    "ressources": [
+      "Vidéo récapitulative",
+      "Quiz rapide",
+      "Forum de discussion"
+    ],
+    "urgence": 2,
+    "facteurs_shap": {
+      "Dernier jour d'activité": 0.3794,
+      "Jours actifs": 0.0945
+    },
+    "donnees_etudiant": {
+      "total_clicks": 643.0,
+      "total_days_active": 29.0,
+      "last_activity_day": 28.0,
+      "avg_score": 68.0,
+      "num_submitted_assessments": 1.0,
+      "studied_credits": 60.0
+    }
+  },
+  {
+    "id_student": 1763015,
+    "code_module": "AAA",
+    "code_presentation": "2013J",
+    "dropout_score": 0.9224,
+    "niveau_risque": "critique",
+    "emoji_risque": "🔴",
+    "cause_principale": "inactivite",
+    "cause_label": "Inactivité comportementale",
+    "action": "ALERTE TUTEUR — Étudiant inactif depuis plusieurs jours",
+    "intervention": "Contact direct dans les 24h. Vérifier les obstacles (technique, motivation, personnel).",
+    "ressources": [
+      "Forum d'entraide",
+      "Session de rattrapage",
+      "Support tuteur"
+    ],
+    "urgence": 3,
+    "facteurs_shap": {
+      "Dernier jour d'activité": 1.7227,
+      "Durée d'engagement": 0.376,
+      "Clics moyens/jour": 0.1828
+    },
+    "donnees_etudiant": {
+      "total_clicks": 420.0,
+      "total_days_active": 3.0,
+      "last_activity_day": -2.0,
+      "avg_score": NaN,
+      "num_submitted_assessments": NaN,
+      "studied_credits": 60.0
+    }
+  },
+  {
+    "id_student": 1860318,
+    "code_module": "AAA",
+    "code_presentation": "2013J",
+    "dropout_score": 0.6892,
+    "niveau_risque": "modere",
+    "emoji_risque": "🟠",
+    "cause_principale": "surcharge",
+    "cause_label": "Surcharge de crédits",
+    "action": "CONSEIL ORGANISATION — Aide à la priorisation",
+    "intervention": "Envoyer des conseils de gestion du temps. Proposer un planning hebdomadaire.",
+    "ressources": [
+      "Guide organisation",
+      "Planning type",
+      "Outils de gestion du temps"
+    ],
+    "urgence": 2,
+    "facteurs_shap": {
+      "Crédits inscrits": 0.9133
+    },
+    "donnees_etudiant": {
+      "total_clicks": 869.0,
+      "total_days_active": 31.0,
+      "last_activity_day": 40.0,
+      "avg_score": 57.0,
+      "num_submitted_assessments": 1.0,
+      "studied_credits": 300.0
+    }
+  },
+  {
+    "id_student": 1970390,
+    "code_module": "AAA",
+    "code_presentation": "2013J",
+    "dropout_score": 0.9207,
+    "niveau_risque": "critique",
+    "emoji_risque": "🔴",
+    "cause_principale": "difficulte_academique",
+    "cause_label": "Difficulté académique",
+    "action": "SOUTIEN ACADÉMIQUE URGENT — Intervention pédagogique immédiate",
+    "intervention": "Orienter vers ressources de remédiation. Proposer une session de tutorat.",
+    "ressources": [
+      "Ressources de remédiation",
+      "Tutorat individuel",
+      "Exercices corrigés"
+    ],
+    "urgence": 3,
+    "facteurs_shap": {
+      "Évaluations soumises": 2.3268,
+      "Moyenne CMA": 0.4464,
+      "Score moyen": 0.0579
+    },
+    "donnees_etudiant": {
+      "total_clicks": 3767.0,
+      "total_days_active": 46.0,
+      "last_activity_day": 42.0,
+      "avg_score": 82.66666666666667,
+      "num_submitted_assessments": 6.0,
+      "studied_credits": 60.0
+    }
+  },
+  {
+    "id_student": 2065691,
+    "code_module": "AAA",
+    "code_presentation": "2013J",
+    "dropout_score": 0.6745,
+    "niveau_risque": "modere",
+    "emoji_risque": "🟠",
+    "cause_principale": "difficulte_academique",
+    "cause_label": "Difficulté académique",
+    "action": "SOUTIEN ACADÉMIQUE — Renforcement ciblé",
+    "intervention": "Proposer des exercices supplémentaires sur les notions en difficulté.",
+    "ressources": [
+      "Exercices supplémentaires",
+      "Vidéos explicatives",
+      "Quiz de vérification"
+    ],
+    "urgence": 2,
+    "facteurs_shap": {
+      "Score moyen": 0.5743,
+      "Moyenne TMA": 0.2834,
+      "Moyenne CMA": 0.118
+    },
+    "donnees_etudiant": {
+      "total_clicks": 336.0,
+      "total_days_active": 7.0,
+      "last_activity_day": 42.0,
+      "avg_score": 30.0,
+      "num_submitted_assessments": 1.0,
+      "studied_credits": 330.0
+    }
+  },
+  {
+    "id_student": 2073016,
+    "code_module": "AAA",
+    "code_presentation": "2013J",
+    "dropout_score": 0.8841,
+    "niveau_risque": "critique",
+    "emoji_risque": "🔴",
+    "cause_principale": "difficulte_academique",
+    "cause_label": "Difficulté académique",
+    "action": "SOUTIEN ACADÉMIQUE URGENT — Intervention pédagogique immédiate",
+    "intervention": "Orienter vers ressources de remédiation. Proposer une session de tutorat.",
+    "ressources": [
+      "Ressources de remédiation",
+      "Tutorat individuel",
+      "Exercices corrigés"
+    ],
+    "urgence": 3,
+    "facteurs_shap": {
+      "Évaluations soumises": 1.4546,
+      "Moyenne CMA": 0.5877,
+      "Score moyen": 0.1879
+    },
+    "donnees_etudiant": {
+      "total_clicks": 577.0,
+      "total_days_active": 29.0,
+      "last_activity_day": 40.0,
+      "avg_score": 60.25,
+      "num_submitted_assessments": 4.0,
+      "studied_credits": 60.0
+    }
+  },
+  {
+    "id_student": 2139353,
+    "code_module": "AAA",
+    "code_presentation": "2013J",
+    "dropout_score": 0.821,
+    "niveau_risque": "critique",
+    "emoji_risque": "🔴",
+    "cause_principale": "difficulte_academique",
+    "cause_label": "Difficulté académique",
+    "action": "SOUTIEN ACADÉMIQUE URGENT — Intervention pédagogique immédiate",
+    "intervention": "Orienter vers ressources de remédiation. Proposer une session de tutorat.",
+    "ressources": [
+      "Ressources de remédiation",
+      "Tutorat individuel",
+      "Exercices corrigés"
+    ],
+    "urgence": 3,
+    "facteurs_shap": {
+      "Évaluations soumises": 1.2899,
+      "Moyenne CMA": 0.5632,
+      "Score moyen": 0.1593
+    },
+    "donnees_etudiant": {
+      "total_clicks": 437.0,
+      "total_days_active": 29.0,
+      "last_activity_day": 40.0,
+      "avg_score": 65.75,
+      "num_submitted_assessments": 4.0,
+      "studied_credits": 120.0
+    }
+  },
+  {
+    "id_student": 2149225,
+    "code_module": "AAA",
+    "code_presentation": "2013J",
+    "dropout_score": 0.8064,
+    "niveau_risque": "critique",
+    "emoji_risque": "🔴",
+    "cause_principale": "inactivite",
+    "cause_label": "Inactivité comportementale",
+    "action": "ALERTE TUTEUR — Étudiant inactif depuis plusieurs jours",
+    "intervention": "Contact direct dans les 24h. Vérifier les obstacles (technique, motivation, personnel).",
+    "ressources": [
+      "Forum d'entraide",
+      "Session de rattrapage",
+      "Support tuteur"
+    ],
+    "urgence": 3,
+    "facteurs_shap": {
+      "Dernier jour d'activité": 1.2535,
+      "Durée d'engagement": 0.1609,
+      "Clics totaux": 0.079
+    },
+    "donnees_etudiant": {
+      "total_clicks": 319.0,
+      "total_days_active": 8.0,
+      "last_activity_day": 10.0,
+      "avg_score": NaN,
+      "num_submitted_assessments": NaN,
+      "studied_credits": 60.0
+    }
+  },
+  {
+    "id_student": 2312620,
+    "code_module": "AAA",
+    "code_presentation": "2013J",
+    "dropout_score": 0.657,
+    "niveau_risque": "modere",
+    "emoji_risque": "🟠",
+    "cause_principale": "difficulte_academique",
+    "cause_label": "Difficulté académique",
+    "action": "SOUTIEN ACADÉMIQUE — Renforcement ciblé",
+    "intervention": "Proposer des exercices supplémentaires sur les notions en difficulté.",
+    "ressources": [
+      "Exercices supplémentaires",
+      "Vidéos explicatives",
+      "Quiz de vérification"
+    ],
+    "urgence": 2,
+    "facteurs_shap": {
+      "Score moyen": 0.5258,
+      "Moyenne TMA": 0.4112,
+      "Moyenne CMA": 0.0907
+    },
+    "donnees_etudiant": {
+      "total_clicks": 351.0,
+      "total_days_active": 13.0,
+      "last_activity_day": 42.0,
+      "avg_score": 11.0,
+      "num_submitted_assessments": 1.0,
+      "studied_credits": 60.0
+    }
+  },
+  {
+    "id_student": 2318055,
+    "code_module": "AAA",
+    "code_presentation": "2013J",
+    "dropout_score": 0.793,
+    "niveau_risque": "critique",
+    "emoji_risque": "🔴",
+    "cause_principale": "inactivite",
+    "cause_label": "Inactivité comportementale",
+    "action": "ALERTE TUTEUR — Étudiant inactif depuis plusieurs jours",
+    "intervention": "Contact direct dans les 24h. Vérifier les obstacles (technique, motivation, personnel).",
+    "ressources": [
+      "Forum d'entraide",
+      "Session de rattrapage",
+      "Support tuteur"
+    ],
+    "urgence": 3,
+    "facteurs_shap": {
+      "Dernier jour d'activité": 1.6003,
+      "Durée d'engagement": 0.2372,
+      "Clics totaux": 0.1876
+    },
+    "donnees_etudiant": {
+      "total_clicks": 0.0,
+      "total_days_active": 0.0,
+      "last_activity_day": 0.0,
+      "avg_score": 75.0,
+      "num_submitted_assessments": 1.0,
+      "studied_credits": 60.0
+    }
+  },
+  {
+    "id_student": 2324976,
+    "code_module": "AAA",
+    "code_presentation": "2013J",
+    "dropout_score": 0.8501,
+    "niveau_risque": "critique",
+    "emoji_risque": "🔴",
+    "cause_principale": "inactivite",
+    "cause_label": "Inactivité comportementale",
+    "action": "ALERTE TUTEUR — Étudiant inactif depuis plusieurs jours",
+    "intervention": "Contact direct dans les 24h. Vérifier les obstacles (technique, motivation, personnel).",
+    "ressources": [
+      "Forum d'entraide",
+      "Session de rattrapage",
+      "Support tuteur"
+    ],
+    "urgence": 3,
+    "facteurs_shap": {
+      "Dernier jour d'activité": 1.6179,
+      "Durée d'engagement": 0.2429,
+      "Clics totaux": 0.1578
+    },
+    "donnees_etudiant": {
+      "total_clicks": 0.0,
+      "total_days_active": 0.0,
+      "last_activity_day": 0.0,
+      "avg_score": NaN,
+      "num_submitted_assessments": NaN,
+      "studied_credits": 60.0
+    }
+  },
+  {
+    "id_student": 2358969,
+    "code_module": "AAA",
+    "code_presentation": "2013J",
+    "dropout_score": 0.5364,
+    "niveau_risque": "modere",
+    "emoji_risque": "🟠",
+    "cause_principale": "surcharge",
+    "cause_label": "Surcharge de crédits",
+    "action": "CONSEIL ORGANISATION — Aide à la priorisation",
+    "intervention": "Envoyer des conseils de gestion du temps. Proposer un planning hebdomadaire.",
+    "ressources": [
+      "Guide organisation",
+      "Planning type",
+      "Outils de gestion du temps"
+    ],
+    "urgence": 2,
+    "facteurs_shap": {
+      "Crédits inscrits": 0.5877
+    },
+    "donnees_etudiant": {
+      "total_clicks": 333.0,
+      "total_days_active": 17.0,
+      "last_activity_day": 38.0,
+      "avg_score": 68.0,
+      "num_submitted_assessments": 2.0,
+      "studied_credits": 180.0
+    }
+  },
+  {
+    "id_student": 2365101,
+    "code_module": "AAA",
+    "code_presentation": "2013J",
+    "dropout_score": 0.9787,
+    "niveau_risque": "critique",
+    "emoji_risque": "🔴",
+    "cause_principale": "inactivite",
+    "cause_label": "Inactivité comportementale",
+    "action": "ALERTE TUTEUR — Étudiant inactif depuis plusieurs jours",
+    "intervention": "Contact direct dans les 24h. Vérifier les obstacles (technique, motivation, personnel).",
+    "ressources": [
+      "Forum d'entraide",
+      "Session de rattrapage",
+      "Support tuteur"
+    ],
+    "urgence": 3,
+    "facteurs_shap": {
+      "Dernier jour d'activité": 1.8319,
+      "Durée d'engagement": 0.2966,
+      "Clics totaux": 0.2041
+    },
+    "donnees_etudiant": {
+      "total_clicks": 0.0,
+      "total_days_active": 0.0,
+      "last_activity_day": 0.0,
+      "avg_score": NaN,
+      "num_submitted_assessments": NaN,
+      "studied_credits": 300.0
+    }
+  },
+  {
+    "id_student": 2456480,
+    "code_module": "AAA",
+    "code_presentation": "2013J",
+    "dropout_score": 0.541,
+    "niveau_risque": "modere",
+    "emoji_risque": "🟠",
+    "cause_principale": "surcharge",
+    "cause_label": "Surcharge de crédits",
+    "action": "CONSEIL ORGANISATION — Aide à la priorisation",
+    "intervention": "Envoyer des conseils de gestion du temps. Proposer un planning hebdomadaire.",
+    "ressources": [
+      "Guide organisation",
+      "Planning type",
+      "Outils de gestion du temps"
+    ],
+    "urgence": 2,
+    "facteurs_shap": {
+      "Crédits inscrits": 0.2838
+    },
+    "donnees_etudiant": {
+      "total_clicks": 95.0,
+      "total_days_active": 7.0,
+      "last_activity_day": 23.0,
+      "avg_score": 40.0,
+      "num_submitted_assessments": 1.0,
+      "studied_credits": 120.0
+    }
+  },
+  {
+    "id_student": 2542724,
+    "code_module": "AAA",
+    "code_presentation": "2013J",
+    "dropout_score": 0.925,
+    "niveau_risque": "critique",
+    "emoji_risque": "🔴",
+    "cause_principale": "inactivite",
+    "cause_label": "Inactivité comportementale",
+    "action": "ALERTE TUTEUR — Étudiant inactif depuis plusieurs jours",
+    "intervention": "Contact direct dans les 24h. Vérifier les obstacles (technique, motivation, personnel).",
+    "ressources": [
+      "Forum d'entraide",
+      "Session de rattrapage",
+      "Support tuteur"
+    ],
+    "urgence": 3,
+    "facteurs_shap": {
+      "Dernier jour d'activité": 1.572,
+      "Durée d'engagement": 0.2729,
+      "Jours actifs": 0.0888
+    },
+    "donnees_etudiant": {
+      "total_clicks": 228.0,
+      "total_days_active": 9.0,
+      "last_activity_day": 5.0,
+      "avg_score": NaN,
+      "num_submitted_assessments": NaN,
+      "studied_credits": 60.0
+    }
+  },
+  {
+    "id_student": 2569324,
+    "code_module": "AAA",
+    "code_presentation": "2013J",
+    "dropout_score": 0.8305,
+    "niveau_risque": "critique",
+    "emoji_risque": "🔴",
+    "cause_principale": "inactivite",
+    "cause_label": "Inactivité comportementale",
+    "action": "ALERTE TUTEUR — Étudiant inactif depuis plusieurs jours",
+    "intervention": "Contact direct dans les 24h. Vérifier les obstacles (technique, motivation, personnel).",
+    "ressources": [
+      "Forum d'entraide",
+      "Session de rattrapage",
+      "Support tuteur"
+    ],
+    "urgence": 3,
+    "facteurs_shap": {
+      "Dernier jour d'activité": 1.1694,
+      "Durée d'engagement": 0.232,
+      "Clics moyens/jour": 0.0081
+    },
+    "donnees_etudiant": {
+      "total_clicks": 25.0,
+      "total_days_active": 2.0,
+      "last_activity_day": 7.0,
+      "avg_score": 66.0,
+      "num_submitted_assessments": 1.0,
+      "studied_credits": 120.0
+    }
+  },
+  {
+    "id_student": 2620584,
+    "code_module": "AAA",
+    "code_presentation": "2013J",
+    "dropout_score": 0.6622,
+    "niveau_risque": "modere",
+    "emoji_risque": "🟠",
+    "cause_principale": "inactivite",
+    "cause_label": "Inactivité comportementale",
+    "action": "NUDGE DE MOTIVATION — Relance par notification",
+    "intervention": "Envoyer un message de rappel personnalisé. Suggérer une ressource courte et accessible.",
+    "ressources": [
+      "Vidéo récapitulative",
+      "Quiz rapide",
+      "Forum de discussion"
+    ],
+    "urgence": 2,
+    "facteurs_shap": {
+      "Dernier jour d'activité": 0.5104,
+      "Durée d'engagement": 0.0331
+    },
+    "donnees_etudiant": {
+      "total_clicks": 92.0,
+      "total_days_active": 5.0,
+      "last_activity_day": 18.0,
+      "avg_score": NaN,
+      "num_submitted_assessments": NaN,
+      "studied_credits": 60.0
+    }
+  },
+  {
+    "id_student": 2688067,
+    "code_module": "AAA",
+    "code_presentation": "2013J",
+    "dropout_score": 0.5286,
+    "niveau_risque": "modere",
+    "emoji_risque": "🟠",
+    "cause_principale": "inactivite",
+    "cause_label": "Inactivité comportementale",
+    "action": "NUDGE DE MOTIVATION — Relance par notification",
+    "intervention": "Envoyer un message de rappel personnalisé. Suggérer une ressource courte et accessible.",
+    "ressources": [
+      "Vidéo récapitulative",
+      "Quiz rapide",
+      "Forum de discussion"
+    ],
+    "urgence": 2,
+    "facteurs_shap": {
+      "Dernier jour d'activité": 0.997,
+      "Durée d'engagement": 0.0716,
+      "Clics totaux": 0.0231
+    },
+    "donnees_etudiant": {
+      "total_clicks": 86.0,
+      "total_days_active": 5.0,
+      "last_activity_day": 11.0,
+      "avg_score": 70.0,
+      "num_submitted_assessments": 1.0,
+      "studied_credits": 60.0
+    }
+  },
+  {
+    "id_student": 24734,
+    "code_module": "AAA",
+    "code_presentation": "2014J",
+    "dropout_score": 0.6371,
+    "niveau_risque": "modere",
+    "emoji_risque": "🟠",
+    "cause_principale": "difficulte_academique",
+    "cause_label": "Difficulté académique",
+    "action": "SOUTIEN ACADÉMIQUE — Renforcement ciblé",
+    "intervention": "Proposer des exercices supplémentaires sur les notions en difficulté.",
+    "ressources": [
+      "Exercices supplémentaires",
+      "Vidéos explicatives",
+      "Quiz de vérification"
+    ],
+    "urgence": 2,
+    "facteurs_shap": {
+      "Score moyen": 0.1867,
+      "Moyenne TMA": 0.1264,
+      "Moyenne CMA": 0.073
+    },
+    "donnees_etudiant": {
+      "total_clicks": 122.0,
+      "total_days_active": 11.0,
+      "last_activity_day": 30.0,
+      "avg_score": 41.0,
+      "num_submitted_assessments": 1.0,
+      "studied_credits": 60.0
+    }
+  },
+  {
+    "id_student": 31600,
+    "code_module": "AAA",
+    "code_presentation": "2014J",
+    "dropout_score": 0.6307,
+    "niveau_risque": "modere",
+    "emoji_risque": "🟠",
+    "cause_principale": "inactivite",
+    "cause_label": "Inactivité comportementale",
+    "action": "NUDGE DE MOTIVATION — Relance par notification",
+    "intervention": "Envoyer un message de rappel personnalisé. Suggérer une ressource courte et accessible.",
+    "ressources": [
+      "Vidéo récapitulative",
+      "Quiz rapide",
+      "Forum de discussion"
+    ],
+    "urgence": 2,
+    "facteurs_shap": {
+      "Dernier jour d'activité": 0.4255,
+      "Jours actifs": 0.0053
+    },
+    "donnees_etudiant": {
+      "total_clicks": 231.0,
+      "total_days_active": 8.0,
+      "last_activity_day": 24.0,
+      "avg_score": 47.0,
+      "num_submitted_assessments": 1.0,
+      "studied_credits": 60.0
+    }
+  },
+  {
+    "id_student": 46844,
+    "code_module": "AAA",
+    "code_presentation": "2014J",
+    "dropout_score": 0.5029,
+    "niveau_risque": "modere",
+    "emoji_risque": "🟠",
+    "cause_principale": "difficulte_academique",
+    "cause_label": "Difficulté académique",
+    "action": "SOUTIEN ACADÉMIQUE — Renforcement ciblé",
+    "intervention": "Proposer des exercices supplémentaires sur les notions en difficulté.",
+    "ressources": [
+      "Exercices supplémentaires",
+      "Vidéos explicatives",
+      "Quiz de vérification"
+    ],
+    "urgence": 2,
+    "facteurs_shap": {
+      "Moyenne CMA": 0.0832,
+      "Score moyen": 0.0577,
+      "Moyenne TMA": 0.0436
+    },
+    "donnees_etudiant": {
+      "total_clicks": 113.0,
+      "total_days_active": 10.0,
+      "last_activity_day": 30.0,
+      "avg_score": 56.0,
+      "num_submitted_assessments": 1.0,
+      "studied_credits": 60.0
+    }
+  },
+  {
+    "id_student": 130636,
+    "code_module": "AAA",
+    "code_presentation": "2014J",
+    "dropout_score": 0.5744,
+    "niveau_risque": "modere",
+    "emoji_risque": "🟠",
+    "cause_principale": "inactivite",
+    "cause_label": "Inactivité comportementale",
+    "action": "NUDGE DE MOTIVATION — Relance par notification",
+    "intervention": "Envoyer un message de rappel personnalisé. Suggérer une ressource courte et accessible.",
+    "ressources": [
+      "Vidéo récapitulative",
+      "Quiz rapide",
+      "Forum de discussion"
+    ],
+    "urgence": 2,
+    "facteurs_shap": {
+      "Dernier jour d'activité": 0.9972,
+      "Clics totaux": 0.007
+    },
+    "donnees_etudiant": {
+      "total_clicks": 124.0,
+      "total_days_active": 5.0,
+      "last_activity_day": 2.0,
+      "avg_score": 57.0,
+      "num_submitted_assessments": 1.0,
+      "studied_credits": 60.0
+    }
+  },
+  {
+    "id_student": 135335,
+    "code_module": "AAA",
+    "code_presentation": "2014J",
+    "dropout_score": 0.9035,
+    "niveau_risque": "critique",
+    "emoji_risque": "🔴",
+    "cause_principale": "inactivite",
+    "cause_label": "Inactivité comportementale",
+    "action": "ALERTE TUTEUR — Étudiant inactif depuis plusieurs jours",
+    "intervention": "Contact direct dans les 24h. Vérifier les obstacles (technique, motivation, personnel).",
+    "ressources": [
+      "Forum d'entraide",
+      "Session de rattrapage",
+      "Support tuteur"
+    ],
+    "urgence": 3,
+    "facteurs_shap": {
+      "Dernier jour d'activité": 0.8143,
+      "Clics totaux": 0.0199,
+      "Clics moyens/jour": 0.0076
+    },
+    "donnees_etudiant": {
+      "total_clicks": 16.0,
+      "total_days_active": 5.0,
+      "last_activity_day": 16.0,
+      "avg_score": NaN,
+      "num_submitted_assessments": NaN,
+      "studied_credits": 120.0
+    }
+  },
+  {
+    "id_student": 141377,
+    "code_module": "AAA",
+    "code_presentation": "2014J",
+    "dropout_score": 0.5455,
+    "niveau_risque": "modere",
+    "emoji_risque": "🟠",
+    "cause_principale": "surcharge",
+    "cause_label": "Surcharge de crédits",
+    "action": "CONSEIL ORGANISATION — Aide à la priorisation",
+    "intervention": "Envoyer des conseils de gestion du temps. Proposer un planning hebdomadaire.",
+    "ressources": [
+      "Guide organisation",
+      "Planning type",
+      "Outils de gestion du temps"
+    ],
+    "urgence": 2,
+    "facteurs_shap": {
+      "Crédits inscrits": 0.7375
+    },
+    "donnees_etudiant": {
+      "total_clicks": 97.0,
+      "total_days_active": 10.0,
+      "last_activity_day": 42.0,
+      "avg_score": 65.0,
+      "num_submitted_assessments": 1.0,
+      "studied_credits": 210.0
+    }
+  },
+  {
+    "id_student": 146503,
+    "code_module": "AAA",
+    "code_presentation": "2014J",
+    "dropout_score": 0.5574,
+    "niveau_risque": "modere",
+    "emoji_risque": "🟠",
+    "cause_principale": "surcharge",
+    "cause_label": "Surcharge de crédits",
+    "action": "CONSEIL ORGANISATION — Aide à la priorisation",
+    "intervention": "Envoyer des conseils de gestion du temps. Proposer un planning hebdomadaire.",
+    "ressources": [
+      "Guide organisation",
+      "Planning type",
+      "Outils de gestion du temps"
+    ],
+    "urgence": 2,
+    "facteurs_shap": {
+      "Crédits inscrits": 0.2758
+    },
+    "donnees_etudiant": {
+      "total_clicks": 230.0,
+      "total_days_active": 22.0,
+      "last_activity_day": 41.0,
+      "avg_score": 67.0,
+      "num_submitted_assessments": 1.0,
+      "studied_credits": 120.0
+    }
+  },
+  {
+    "id_student": 147756,
+    "code_module": "AAA",
+    "code_presentation": "2014J",
+    "dropout_score": 0.5064,
+    "niveau_risque": "modere",
+    "emoji_risque": "🟠",
+    "cause_principale": "surcharge",
+    "cause_label": "Surcharge de crédits",
+    "action": "CONSEIL ORGANISATION — Aide à la priorisation",
+    "intervention": "Envoyer des conseils de gestion du temps. Proposer un planning hebdomadaire.",
+    "ressources": [
+      "Guide organisation",
+      "Planning type",
+      "Outils de gestion du temps"
+    ],
+    "urgence": 2,
+    "facteurs_shap": {
+      "Crédits inscrits": 0.3105
+    },
+    "donnees_etudiant": {
+      "total_clicks": 234.0,
+      "total_days_active": 20.0,
+      "last_activity_day": 39.0,
+      "avg_score": 73.0,
+      "num_submitted_assessments": 2.0,
+      "studied_credits": 120.0
+    }
+  },
+  {
+    "id_student": 149962,
+    "code_module": "AAA",
+    "code_presentation": "2014J",
+    "dropout_score": 0.5887,
+    "niveau_risque": "modere",
+    "emoji_risque": "🟠",
+    "cause_principale": "inactivite",
+    "cause_label": "Inactivité comportementale",
+    "action": "NUDGE DE MOTIVATION — Relance par notification",
+    "intervention": "Envoyer un message de rappel personnalisé. Suggérer une ressource courte et accessible.",
+    "ressources": [
+      "Vidéo récapitulative",
+      "Quiz rapide",
+      "Forum de discussion"
+    ],
+    "urgence": 2,
+    "facteurs_shap": {
+      "Dernier jour d'activité": 0.3739,
+      "Clics totaux": 0.0215
+    },
+    "donnees_etudiant": {
+      "total_clicks": 84.0,
+      "total_days_active": 6.0,
+      "last_activity_day": 26.0,
+      "avg_score": 67.0,
+      "num_submitted_assessments": 1.0,
+      "studied_credits": 60.0
+    }
+  },
+  {
+    "id_student": 158707,
+    "code_module": "AAA",
+    "code_presentation": "2014J",
+    "dropout_score": 0.5202,
+    "niveau_risque": "modere",
+    "emoji_risque": "🟠",
+    "cause_principale": "difficulte_academique",
+    "cause_label": "Difficulté académique",
+    "action": "SOUTIEN ACADÉMIQUE — Renforcement ciblé",
+    "intervention": "Proposer des exercices supplémentaires sur les notions en difficulté.",
+    "ressources": [
+      "Exercices supplémentaires",
+      "Vidéos explicatives",
+      "Quiz de vérification"
+    ],
+    "urgence": 2,
+    "facteurs_shap": {
+      "Moyenne CMA": 0.1178,
+      "Score moyen": 0.0619,
+      "Moyenne TMA": 0.0422
+    },
+    "donnees_etudiant": {
+      "total_clicks": 2542.0,
+      "total_days_active": 41.0,
+      "last_activity_day": 42.0,
+      "avg_score": 75.0,
+      "num_submitted_assessments": 1.0,
+      "studied_credits": 60.0
+    }
+  },
+  {
+    "id_student": 175772,
+    "code_module": "AAA",
+    "code_presentation": "2014J",
+    "dropout_score": 0.6659,
+    "niveau_risque": "modere",
+    "emoji_risque": "🟠",
+    "cause_principale": "surcharge",
+    "cause_label": "Surcharge de crédits",
+    "action": "CONSEIL ORGANISATION — Aide à la priorisation",
+    "intervention": "Envoyer des conseils de gestion du temps. Proposer un planning hebdomadaire.",
+    "ressources": [
+      "Guide organisation",
+      "Planning type",
+      "Outils de gestion du temps"
+    ],
+    "urgence": 2,
+    "facteurs_shap": {
+      "Crédits inscrits": 1.0572
+    },
+    "donnees_etudiant": {
+      "total_clicks": 2757.0,
+      "total_days_active": 54.0,
+      "last_activity_day": 41.0,
+      "avg_score": 85.0,
+      "num_submitted_assessments": 1.0,
+      "studied_credits": 270.0
+    }
+  },
+  {
+    "id_student": 235507,
+    "code_module": "AAA",
+    "code_presentation": "2014J",
+    "dropout_score": 0.5014,
+    "niveau_risque": "modere",
+    "emoji_risque": "🟠",
+    "cause_principale": "surcharge",
+    "cause_label": "Surcharge de crédits",
+    "action": "CONSEIL ORGANISATION — Aide à la priorisation",
+    "intervention": "Envoyer des conseils de gestion du temps. Proposer un planning hebdomadaire.",
+    "ressources": [
+      "Guide organisation",
+      "Planning type",
+      "Outils de gestion du temps"
+    ],
+    "urgence": 2,
+    "facteurs_shap": {
+      "Crédits inscrits": 0.592
+    },
+    "donnees_etudiant": {
+      "total_clicks": 325.0,
+      "total_days_active": 32.0,
+      "last_activity_day": 41.0,
+      "avg_score": 63.5,
+      "num_submitted_assessments": 2.0,
+      "studied_credits": 180.0
+    }
+  },
+  {
+    "id_student": 236875,
+    "code_module": "AAA",
+    "code_presentation": "2014J",
+    "dropout_score": 0.5152,
+    "niveau_risque": "modere",
+    "emoji_risque": "🟠",
+    "cause_principale": "difficulte_academique",
+    "cause_label": "Difficulté académique",
+    "action": "SOUTIEN ACADÉMIQUE — Renforcement ciblé",
+    "intervention": "Proposer des exercices supplémentaires sur les notions en difficulté.",
+    "ressources": [
+      "Exercices supplémentaires",
+      "Vidéos explicatives",
+      "Quiz de vérification"
+    ],
+    "urgence": 2,
+    "facteurs_shap": {
+      "Score moyen": 0.2665,
+      "Moyenne TMA": 0.1919,
+      "Moyenne CMA": 0.0778
+    },
+    "donnees_etudiant": {
+      "total_clicks": 72.0,
+      "total_days_active": 18.0,
+      "last_activity_day": 37.0,
+      "avg_score": 42.0,
+      "num_submitted_assessments": 1.0,
+      "studied_credits": 60.0
+    }
+  },
+  {
+    "id_student": 243510,
+    "code_module": "AAA",
+    "code_presentation": "2014J",
+    "dropout_score": 0.571,
+    "niveau_risque": "modere",
+    "emoji_risque": "🟠",
+    "cause_principale": "difficulte_academique",
+    "cause_label": "Difficulté académique",
+    "action": "SOUTIEN ACADÉMIQUE — Renforcement ciblé",
+    "intervention": "Proposer des exercices supplémentaires sur les notions en difficulté.",
+    "ressources": [
+      "Exercices supplémentaires",
+      "Vidéos explicatives",
+      "Quiz de vérification"
+    ],
+    "urgence": 2,
+    "facteurs_shap": {
+      "Score moyen": 0.1194,
+      "Moyenne TMA": 0.1157,
+      "Moyenne CMA": 0.074
+    },
+    "donnees_etudiant": {
+      "total_clicks": 179.0,
+      "total_days_active": 10.0,
+      "last_activity_day": 30.0,
+      "avg_score": 46.0,
+      "num_submitted_assessments": 1.0,
+      "studied_credits": 60.0
+    }
+  },
+  {
+    "id_student": 260355,
+    "code_module": "AAA",
+    "code_presentation": "2014J",
+    "dropout_score": 0.9434,
+    "niveau_risque": "critique",
+    "emoji_risque": "🔴",
+    "cause_principale": "inactivite",
+    "cause_label": "Inactivité comportementale",
+    "action": "ALERTE TUTEUR — Étudiant inactif depuis plusieurs jours",
+    "intervention": "Contact direct dans les 24h. Vérifier les obstacles (technique, motivation, personnel).",
+    "ressources": [
+      "Forum d'entraide",
+      "Session de rattrapage",
+      "Support tuteur"
+    ],
+    "urgence": 3,
+    "facteurs_shap": {
+      "Dernier jour d'activité": 1.6269,
+      "Durée d'engagement": 0.2656,
+      "Clics totaux": 0.2016
+    },
+    "donnees_etudiant": {
+      "total_clicks": 0.0,
+      "total_days_active": 0.0,
+      "last_activity_day": 0.0,
+      "avg_score": 55.0,
+      "num_submitted_assessments": 1.0,
+      "studied_credits": 120.0
+    }
+  },
+  {
+    "id_student": 263952,
+    "code_module": "AAA",
+    "code_presentation": "2014J",
+    "dropout_score": 0.5654,
+    "niveau_risque": "modere",
+    "emoji_risque": "🟠",
+    "cause_principale": "inactivite",
+    "cause_label": "Inactivité comportementale",
+    "action": "NUDGE DE MOTIVATION — Relance par notification",
+    "intervention": "Envoyer un message de rappel personnalisé. Suggérer une ressource courte et accessible.",
+    "ressources": [
+      "Vidéo récapitulative",
+      "Quiz rapide",
+      "Forum de discussion"
+    ],
+    "urgence": 2,
+    "facteurs_shap": {
+      "Dernier jour d'activité": 0.1258,
+      "Jours actifs": 0.0127
+    },
+    "donnees_etudiant": {
+      "total_clicks": 686.0,
+      "total_days_active": 27.0,
+      "last_activity_day": 32.0,
+      "avg_score": 82.0,
+      "num_submitted_assessments": 1.0,
+      "studied_credits": 60.0
+    }
+  },
+  {
+    "id_student": 266524,
+    "code_module": "AAA",
+    "code_presentation": "2014J",
+    "dropout_score": 0.7991,
+    "niveau_risque": "critique",
+    "emoji_risque": "🔴",
+    "cause_principale": "surcharge",
+    "cause_label": "Surcharge de crédits",
+    "action": "ALERTE SURCHARGE — Accompagnement personnalisé",
+    "intervention": "Rencontrer l'étudiant pour évaluer sa charge de travail. Proposer un allègement.",
+    "ressources": [
+      "Entretien conseiller",
+      "Plan de travail adapté"
+    ],
+    "urgence": 3,
+    "facteurs_shap": {
+      "Crédits inscrits": 1.054
+    },
+    "donnees_etudiant": {
+      "total_clicks": 196.0,
+      "total_days_active": 23.0,
+      "last_activity_day": 34.0,
+      "avg_score": 46.0,
+      "num_submitted_assessments": 1.0,
+      "studied_credits": 240.0
+    }
+  },
+  {
+    "id_student": 268733,
+    "code_module": "AAA",
+    "code_presentation": "2014J",
+    "dropout_score": 0.6781,
+    "niveau_risque": "modere",
+    "emoji_risque": "🟠",
+    "cause_principale": "inactivite",
+    "cause_label": "Inactivité comportementale",
+    "action": "NUDGE DE MOTIVATION — Relance par notification",
+    "intervention": "Envoyer un message de rappel personnalisé. Suggérer une ressource courte et accessible.",
+    "ressources": [
+      "Vidéo récapitulative",
+      "Quiz rapide",
+      "Forum de discussion"
+    ],
+    "urgence": 2,
+    "facteurs_shap": {
+      "Dernier jour d'activité": 0.4245,
+      "Durée d'engagement": 0.1615,
+      "Clics moyens/jour": 0.0202
+    },
+    "donnees_etudiant": {
+      "total_clicks": 3.0,
+      "total_days_active": 1.0,
+      "last_activity_day": 23.0,
+      "avg_score": 51.0,
+      "num_submitted_assessments": 1.0,
+      "studied_credits": 120.0
+    }
+  },
+  {
+    "id_student": 277880,
+    "code_module": "AAA",
+    "code_presentation": "2014J",
+    "dropout_score": 0.5596,
+    "niveau_risque": "modere",
+    "emoji_risque": "🟠",
+    "cause_principale": "inactivite",
+    "cause_label": "Inactivité comportementale",
+    "action": "NUDGE DE MOTIVATION — Relance par notification",
+    "intervention": "Envoyer un message de rappel personnalisé. Suggérer une ressource courte et accessible.",
+    "ressources": [
+      "Vidéo récapitulative",
+      "Quiz rapide",
+      "Forum de discussion"
+    ],
+    "urgence": 2,
+    "facteurs_shap": {
+      "Dernier jour d'activité": 0.95,
+      "Durée d'engagement": 0.0676,
+      "Clics totaux": 0.004
+    },
+    "donnees_etudiant": {
+      "total_clicks": 4.0,
+      "total_days_active": 2.0,
+      "last_activity_day": 5.0,
+      "avg_score": 68.25,
+      "num_submitted_assessments": 4.0,
+      "studied_credits": 120.0
+    }
+  },
+  {
+    "id_student": 288994,
+    "code_module": "AAA",
+    "code_presentation": "2014J",
+    "dropout_score": 0.7108,
+    "niveau_risque": "critique",
+    "emoji_risque": "🔴",
+    "cause_principale": "inactivite",
+    "cause_label": "Inactivité comportementale",
+    "action": "ALERTE TUTEUR — Étudiant inactif depuis plusieurs jours",
+    "intervention": "Contact direct dans les 24h. Vérifier les obstacles (technique, motivation, personnel).",
+    "ressources": [
+      "Forum d'entraide",
+      "Session de rattrapage",
+      "Support tuteur"
+    ],
+    "urgence": 3,
+    "facteurs_shap": {
+      "Dernier jour d'activité": 0.5903,
+      "Durée d'engagement": 0.0473
+    },
+    "donnees_etudiant": {
+      "total_clicks": 134.0,
+      "total_days_active": 4.0,
+      "last_activity_day": 18.0,
+      "avg_score": NaN,
+      "num_submitted_assessments": NaN,
+      "studied_credits": 120.0
+    }
+  },
+  {
+    "id_student": 301967,
+    "code_module": "AAA",
+    "code_presentation": "2014J",
+    "dropout_score": 0.5633,
+    "niveau_risque": "modere",
+    "emoji_risque": "🟠",
+    "cause_principale": "difficulte_academique",
+    "cause_label": "Difficulté académique",
+    "action": "SOUTIEN ACADÉMIQUE — Renforcement ciblé",
+    "intervention": "Proposer des exercices supplémentaires sur les notions en difficulté.",
+    "ressources": [
+      "Exercices supplémentaires",
+      "Vidéos explicatives",
+      "Quiz de vérification"
+    ],
+    "urgence": 2,
+    "facteurs_shap": {
+      "Moyenne CMA": 0.0851,
+      "Moyenne TMA": 0.0675,
+      "Score moyen": 0.0349
+    },
+    "donnees_etudiant": {
+      "total_clicks": 38.0,
+      "total_days_active": 7.0,
+      "last_activity_day": 30.0,
+      "avg_score": 51.0,
+      "num_submitted_assessments": 1.0,
+      "studied_credits": 60.0
+    }
+  },
+  {
+    "id_student": 311659,
+    "code_module": "AAA",
+    "code_presentation": "2014J",
+    "dropout_score": 0.6604,
+    "niveau_risque": "modere",
+    "emoji_risque": "🟠",
+    "cause_principale": "difficulte_academique",
+    "cause_label": "Difficulté académique",
+    "action": "SOUTIEN ACADÉMIQUE — Renforcement ciblé",
+    "intervention": "Proposer des exercices supplémentaires sur les notions en difficulté.",
+    "ressources": [
+      "Exercices supplémentaires",
+      "Vidéos explicatives",
+      "Quiz de vérification"
+    ],
+    "urgence": 2,
+    "facteurs_shap": {
+      "Score moyen": 0.2742,
+      "Moyenne TMA": 0.2039,
+      "Moyenne CMA": 0.0758
+    },
+    "donnees_etudiant": {
+      "total_clicks": 66.0,
+      "total_days_active": 3.0,
+      "last_activity_day": 27.0,
+      "avg_score": NaN,
+      "num_submitted_assessments": NaN,
+      "studied_credits": 120.0
+    }
+  },
+  {
+    "id_student": 323805,
+    "code_module": "AAA",
+    "code_presentation": "2014J",
+    "dropout_score": 0.9903,
+    "niveau_risque": "critique",
+    "emoji_risque": "🔴",
+    "cause_principale": "inactivite",
+    "cause_label": "Inactivité comportementale",
+    "action": "ALERTE TUTEUR — Étudiant inactif depuis plusieurs jours",
+    "intervention": "Contact direct dans les 24h. Vérifier les obstacles (technique, motivation, personnel).",
+    "ressources": [
+      "Forum d'entraide",
+      "Session de rattrapage",
+      "Support tuteur"
+    ],
+    "urgence": 3,
+    "facteurs_shap": {
+      "Dernier jour d'activité": 1.9078,
+      "Durée d'engagement": 0.2921,
+      "Clics totaux": 0.1987
+    },
+    "donnees_etudiant": {
+      "total_clicks": 0.0,
+      "total_days_active": 0.0,
+      "last_activity_day": 0.0,
+      "avg_score": NaN,
+      "num_submitted_assessments": NaN,
+      "studied_credits": 180.0
+    }
+  },
+  {
+    "id_student": 328734,
+    "code_module": "AAA",
+    "code_presentation": "2014J",
+    "dropout_score": 0.9883,
+    "niveau_risque": "critique",
+    "emoji_risque": "🔴",
+    "cause_principale": "inactivite",
+    "cause_label": "Inactivité comportementale",
+    "action": "ALERTE TUTEUR — Étudiant inactif depuis plusieurs jours",
+    "intervention": "Contact direct dans les 24h. Vérifier les obstacles (technique, motivation, personnel).",
+    "ressources": [
+      "Forum d'entraide",
+      "Session de rattrapage",
+      "Support tuteur"
+    ],
+    "urgence": 3,
+    "facteurs_shap": {
+      "Dernier jour d'activité": 1.9308,
+      "Durée d'engagement": 0.2885,
+      "Clics totaux": 0.2039
+    },
+    "donnees_etudiant": {
+      "total_clicks": 0.0,
+      "total_days_active": 0.0,
+      "last_activity_day": 0.0,
+      "avg_score": NaN,
+      "num_submitted_assessments": NaN,
+      "studied_credits": 180.0
+    }
+  },
+  {
+    "id_student": 334441,
+    "code_module": "AAA",
+    "code_presentation": "2014J",
+    "dropout_score": 0.5406,
+    "niveau_risque": "modere",
+    "emoji_risque": "🟠",
+    "cause_principale": "difficulte_academique",
+    "cause_label": "Difficulté académique",
+    "action": "SOUTIEN ACADÉMIQUE — Renforcement ciblé",
+    "intervention": "Proposer des exercices supplémentaires sur les notions en difficulté.",
+    "ressources": [
+      "Exercices supplémentaires",
+      "Vidéos explicatives",
+      "Quiz de vérification"
+    ],
+    "urgence": 2,
+    "facteurs_shap": {
+      "Score moyen": 0.2202,
+      "Moyenne TMA": 0.1175,
+      "Moyenne CMA": 0.0837
+    },
+    "donnees_etudiant": {
+      "total_clicks": 116.0,
+      "total_days_active": 13.0,
+      "last_activity_day": 32.0,
+      "avg_score": 41.0,
+      "num_submitted_assessments": 1.0,
+      "studied_credits": 60.0
+    }
+  },
+  {
+    "id_student": 337748,
+    "code_module": "AAA",
+    "code_presentation": "2014J",
+    "dropout_score": 0.7023,
+    "niveau_risque": "critique",
+    "emoji_risque": "🔴",
+    "cause_principale": "inactivite",
+    "cause_label": "Inactivité comportementale",
+    "action": "ALERTE TUTEUR — Étudiant inactif depuis plusieurs jours",
+    "intervention": "Contact direct dans les 24h. Vérifier les obstacles (technique, motivation, personnel).",
+    "ressources": [
+      "Forum d'entraide",
+      "Session de rattrapage",
+      "Support tuteur"
+    ],
+    "urgence": 3,
+    "facteurs_shap": {
+      "Dernier jour d'activité": 0.3457,
+      "Clics totaux": 0.0128
+    },
+    "donnees_etudiant": {
+      "total_clicks": 89.0,
+      "total_days_active": 5.0,
+      "last_activity_day": 17.0,
+      "avg_score": 44.0,
+      "num_submitted_assessments": 1.0,
+      "studied_credits": 120.0
+    }
+  },
+  {
+    "id_student": 387954,
+    "code_module": "AAA",
+    "code_presentation": "2014J",
+    "dropout_score": 0.7807,
+    "niveau_risque": "critique",
+    "emoji_risque": "🔴",
+    "cause_principale": "inactivite",
+    "cause_label": "Inactivité comportementale",
+    "action": "ALERTE TUTEUR — Étudiant inactif depuis plusieurs jours",
+    "intervention": "Contact direct dans les 24h. Vérifier les obstacles (technique, motivation, personnel).",
+    "ressources": [
+      "Forum d'entraide",
+      "Session de rattrapage",
+      "Support tuteur"
+    ],
+    "urgence": 3,
+    "facteurs_shap": {
+      "Dernier jour d'activité": 0.8273,
+      "Jours actifs": 0.0765
+    },
+    "donnees_etudiant": {
+      "total_clicks": 532.0,
+      "total_days_active": 14.0,
+      "last_activity_day": 18.0,
+      "avg_score": NaN,
+      "num_submitted_assessments": NaN,
+      "studied_credits": 60.0
+    }
+  },
+  {
+    "id_student": 388147,
+    "code_module": "AAA",
+    "code_presentation": "2014J",
+    "dropout_score": 0.7888,
+    "niveau_risque": "critique",
+    "emoji_risque": "🔴",
+    "cause_principale": "surcharge",
+    "cause_label": "Surcharge de crédits",
+    "action": "ALERTE SURCHARGE — Accompagnement personnalisé",
+    "intervention": "Rencontrer l'étudiant pour évaluer sa charge de travail. Proposer un allègement.",
+    "ressources": [
+      "Entretien conseiller",
+      "Plan de travail adapté"
+    ],
+    "urgence": 3,
+    "facteurs_shap": {
+      "Crédits inscrits": 0.9768
+    },
+    "donnees_etudiant": {
+      "total_clicks": 308.0,
+      "total_days_active": 17.0,
+      "last_activity_day": 38.0,
+      "avg_score": 41.0,
+      "num_submitted_assessments": 1.0,
+      "studied_credits": 300.0
+    }
+  },
+  {
+    "id_student": 390890,
+    "code_module": "AAA",
+    "code_presentation": "2014J",
+    "dropout_score": 0.5447,
+    "niveau_risque": "modere",
+    "emoji_risque": "🟠",
+    "cause_principale": "difficulte_academique",
+    "cause_label": "Difficulté académique",
+    "action": "SOUTIEN ACADÉMIQUE — Renforcement ciblé",
+    "intervention": "Proposer des exercices supplémentaires sur les notions en difficulté.",
+    "ressources": [
+      "Exercices supplémentaires",
+      "Vidéos explicatives",
+      "Quiz de vérification"
+    ],
+    "urgence": 2,
+    "facteurs_shap": {
+      "Évaluations soumises": 0.2868,
+      "Moyenne CMA": 0.2056
+    },
+    "donnees_etudiant": {
+      "total_clicks": 186.0,
+      "total_days_active": 19.0,
+      "last_activity_day": 31.0,
+      "avg_score": 71.0,
+      "num_submitted_assessments": 4.0,
+      "studied_credits": 90.0
+    }
+  },
+  {
+    "id_student": 396655,
+    "code_module": "AAA",
+    "code_presentation": "2014J",
+    "dropout_score": 0.837,
+    "niveau_risque": "critique",
+    "emoji_risque": "🔴",
+    "cause_principale": "difficulte_academique",
+    "cause_label": "Difficulté académique",
+    "action": "SOUTIEN ACADÉMIQUE URGENT — Intervention pédagogique immédiate",
+    "intervention": "Orienter vers ressources de remédiation. Proposer une session de tutorat.",
+    "ressources": [
+      "Ressources de remédiation",
+      "Tutorat individuel",
+      "Exercices corrigés"
+    ],
+    "urgence": 3,
+    "facteurs_shap": {
+      "Score moyen": 0.3735,
+      "Moyenne TMA": 0.1938,
+      "Moyenne CMA": 0.0923
+    },
+    "donnees_etudiant": {
+      "total_clicks": 111.0,
+      "total_days_active": 10.0,
+      "last_activity_day": 37.0,
+      "avg_score": 19.0,
+      "num_submitted_assessments": 1.0,
+      "studied_credits": 180.0
+    }
+  },
+  {
+    "id_student": 400147,
+    "code_module": "AAA",
+    "code_presentation": "2014J",
+    "dropout_score": 0.6443,
+    "niveau_risque": "modere",
+    "emoji_risque": "🟠",
+    "cause_principale": "inactivite",
+    "cause_label": "Inactivité comportementale",
+    "action": "NUDGE DE MOTIVATION — Relance par notification",
+    "intervention": "Envoyer un message de rappel personnalisé. Suggérer une ressource courte et accessible.",
+    "ressources": [
+      "Vidéo récapitulative",
+      "Quiz rapide",
+      "Forum de discussion"
+    ],
+    "urgence": 2,
+    "facteurs_shap": {
+      "Dernier jour d'activité": 0.4128,
+      "Jours actifs": 0.0585,
+      "Clics moyens/jour": 0.0022
+    },
+    "donnees_etudiant": {
+      "total_clicks": 96.0,
+      "total_days_active": 9.0,
+      "last_activity_day": 22.0,
+      "avg_score": 49.0,
+      "num_submitted_assessments": 1.0,
+      "studied_credits": 60.0
+    }
+  },
+  {
+    "id_student": 410092,
+    "code_module": "AAA",
+    "code_presentation": "2014J",
+    "dropout_score": 0.5371,
+    "niveau_risque": "modere",
+    "emoji_risque": "🟠",
+    "cause_principale": "inactivite",
+    "cause_label": "Inactivité comportementale",
+    "action": "NUDGE DE MOTIVATION — Relance par notification",
+    "intervention": "Envoyer un message de rappel personnalisé. Suggérer une ressource courte et accessible.",
+    "ressources": [
+      "Vidéo récapitulative",
+      "Quiz rapide",
+      "Forum de discussion"
+    ],
+    "urgence": 2,
+    "facteurs_shap": {
+      "Dernier jour d'activité": 0.3963
+    },
+    "donnees_etudiant": {
+      "total_clicks": 116.0,
+      "total_days_active": 6.0,
+      "last_activity_day": 22.0,
+      "avg_score": 68.0,
+      "num_submitted_assessments": 1.0,
+      "studied_credits": 60.0
+    }
+  },
+  {
+    "id_student": 418731,
+    "code_module": "AAA",
+    "code_presentation": "2014J",
+    "dropout_score": 0.5082,
+    "niveau_risque": "modere",
+    "emoji_risque": "🟠",
+    "cause_principale": "inactivite",
+    "cause_label": "Inactivité comportementale",
+    "action": "NUDGE DE MOTIVATION — Relance par notification",
+    "intervention": "Envoyer un message de rappel personnalisé. Suggérer une ressource courte et accessible.",
+    "ressources": [
+      "Vidéo récapitulative",
+      "Quiz rapide",
+      "Forum de discussion"
+    ],
+    "urgence": 2,
+    "facteurs_shap": {
+      "Dernier jour d'activité": 0.2785,
+      "Durée d'engagement": 0.1935,
+      "Clics totaux": 0.0215
+    },
+    "donnees_etudiant": {
+      "total_clicks": 29.0,
+      "total_days_active": 3.0,
+      "last_activity_day": 25.0,
+      "avg_score": 61.0,
+      "num_submitted_assessments": 1.0,
+      "studied_credits": 90.0
+    }
+  },
+  {
+    "id_student": 429858,
+    "code_module": "AAA",
+    "code_presentation": "2014J",
+    "dropout_score": 0.7354,
+    "niveau_risque": "critique",
+    "emoji_risque": "🔴",
+    "cause_principale": "surcharge",
+    "cause_label": "Surcharge de crédits",
+    "action": "ALERTE SURCHARGE — Accompagnement personnalisé",
+    "intervention": "Rencontrer l'étudiant pour évaluer sa charge de travail. Proposer un allègement.",
+    "ressources": [
+      "Entretien conseiller",
+      "Plan de travail adapté"
+    ],
+    "urgence": 3,
+    "facteurs_shap": {
+      "Crédits inscrits": 1.1408
+    },
+    "donnees_etudiant": {
+      "total_clicks": 30.0,
+      "total_days_active": 4.0,
+      "last_activity_day": 38.0,
+      "avg_score": 83.0,
+      "num_submitted_assessments": 1.0,
+      "studied_credits": 300.0
+    }
+  },
+  {
+    "id_student": 468120,
+    "code_module": "AAA",
+    "code_presentation": "2014J",
+    "dropout_score": 0.6364,
+    "niveau_risque": "modere",
+    "emoji_risque": "🟠",
+    "cause_principale": "difficulte_academique",
+    "cause_label": "Difficulté académique",
+    "action": "SOUTIEN ACADÉMIQUE — Renforcement ciblé",
+    "intervention": "Proposer des exercices supplémentaires sur les notions en difficulté.",
+    "ressources": [
+      "Exercices supplémentaires",
+      "Vidéos explicatives",
+      "Quiz de vérification"
+    ],
+    "urgence": 2,
+    "facteurs_shap": {
+      "Score moyen": 0.1936,
+      "Moyenne TMA": 0.1699,
+      "Moyenne CMA": 0.0884
+    },
+    "donnees_etudiant": {
+      "total_clicks": 72.0,
+      "total_days_active": 10.0,
+      "last_activity_day": 38.0,
+      "avg_score": 42.0,
+      "num_submitted_assessments": 1.0,
+      "studied_credits": 120.0
+    }
+  },
+  {
+    "id_student": 481022,
+    "code_module": "AAA",
+    "code_presentation": "2014J",
+    "dropout_score": 0.7474,
+    "niveau_risque": "critique",
+    "emoji_risque": "🔴",
+    "cause_principale": "surcharge",
+    "cause_label": "Surcharge de crédits",
+    "action": "ALERTE SURCHARGE — Accompagnement personnalisé",
+    "intervention": "Rencontrer l'étudiant pour évaluer sa charge de travail. Proposer un allègement.",
+    "ressources": [
+      "Entretien conseiller",
+      "Plan de travail adapté"
+    ],
+    "urgence": 3,
+    "facteurs_shap": {
+      "Crédits inscrits": 0.568
+    },
+    "donnees_etudiant": {
+      "total_clicks": 59.0,
+      "total_days_active": 7.0,
+      "last_activity_day": 39.0,
+      "avg_score": 40.0,
+      "num_submitted_assessments": 1.0,
+      "studied_credits": 180.0
+    }
+  },
+  {
+    "id_student": 488382,
+    "code_module": "AAA",
+    "code_presentation": "2014J",
+    "dropout_score": 0.9894,
+    "niveau_risque": "critique",
+    "emoji_risque": "🔴",
+    "cause_principale": "inactivite",
+    "cause_label": "Inactivité comportementale",
+    "action": "ALERTE TUTEUR — Étudiant inactif depuis plusieurs jours",
+    "intervention": "Contact direct dans les 24h. Vérifier les obstacles (technique, motivation, personnel).",
+    "ressources": [
+      "Forum d'entraide",
+      "Session de rattrapage",
+      "Support tuteur"
+    ],
+    "urgence": 3,
+    "facteurs_shap": {
+      "Dernier jour d'activité": 1.9205,
+      "Durée d'engagement": 0.2883,
+      "Clics totaux": 0.2102
+    },
+    "donnees_etudiant": {
+      "total_clicks": 0.0,
+      "total_days_active": 0.0,
+      "last_activity_day": 0.0,
+      "avg_score": NaN,
+      "num_submitted_assessments": NaN,
+      "studied_credits": 180.0
+    }
+  },
+  {
+    "id_student": 500113,
+    "code_module": "AAA",
+    "code_presentation": "2014J",
+    "dropout_score": 0.5052,
+    "niveau_risque": "modere",
+    "emoji_risque": "🟠",
+    "cause_principale": "inactivite",
+    "cause_label": "Inactivité comportementale",
+    "action": "NUDGE DE MOTIVATION — Relance par notification",
+    "intervention": "Envoyer un message de rappel personnalisé. Suggérer une ressource courte et accessible.",
+    "ressources": [
+      "Vidéo récapitulative",
+      "Quiz rapide",
+      "Forum de discussion"
+    ],
+    "urgence": 2,
+    "facteurs_shap": {
+      "Dernier jour d'activité": 0.2629,
+      "Durée d'engagement": 0.0489
+    },
+    "donnees_etudiant": {
+      "total_clicks": 119.0,
+      "total_days_active": 6.0,
+      "last_activity_day": 19.0,
+      "avg_score": 62.0,
+      "num_submitted_assessments": 1.0,
+      "studied_credits": 120.0
+    }
+  },
+  {
+    "id_student": 514526,
+    "code_module": "AAA",
+    "code_presentation": "2014J",
+    "dropout_score": 0.9842,
+    "niveau_risque": "critique",
+    "emoji_risque": "🔴",
+    "cause_principale": "inactivite",
+    "cause_label": "Inactivité comportementale",
+    "action": "ALERTE TUTEUR — Étudiant inactif depuis plusieurs jours",
+    "intervention": "Contact direct dans les 24h. Vérifier les obstacles (technique, motivation, personnel).",
+    "ressources": [
+      "Forum d'entraide",
+      "Session de rattrapage",
+      "Support tuteur"
+    ],
+    "urgence": 3,
+    "facteurs_shap": {
+      "Dernier jour d'activité": 1.9581,
+      "Durée d'engagement": 0.2508,
+      "Clics totaux": 0.0274
+    },
+    "donnees_etudiant": {
+      "total_clicks": 45.0,
+      "total_days_active": 3.0,
+      "last_activity_day": -16.0,
+      "avg_score": NaN,
+      "num_submitted_assessments": NaN,
+      "studied_credits": 120.0
+    }
+  },
+  {
+    "id_student": 533068,
+    "code_module": "AAA",
+    "code_presentation": "2014J",
+    "dropout_score": 0.5964,
+    "niveau_risque": "modere",
+    "emoji_risque": "🟠",
+    "cause_principale": "inactivite",
+    "cause_label": "Inactivité comportementale",
+    "action": "NUDGE DE MOTIVATION — Relance par notification",
+    "intervention": "Envoyer un message de rappel personnalisé. Suggérer une ressource courte et accessible.",
+    "ressources": [
+      "Vidéo récapitulative",
+      "Quiz rapide",
+      "Forum de discussion"
+    ],
+    "urgence": 2,
+    "facteurs_shap": {
+      "Dernier jour d'activité": 0.3722,
+      "Clics totaux": 0.0461
+    },
+    "donnees_etudiant": {
+      "total_clicks": 81.0,
+      "total_days_active": 7.0,
+      "last_activity_day": 19.0,
+      "avg_score": 41.0,
+      "num_submitted_assessments": 1.0,
+      "studied_credits": 60.0
+    }
+  },
+  {
+    "id_student": 567922,
+    "code_module": "AAA",
+    "code_presentation": "2014J",
+    "dropout_score": 0.9858,
+    "niveau_risque": "critique",
+    "emoji_risque": "🔴",
+    "cause_principale": "inactivite",
+    "cause_label": "Inactivité comportementale",
+    "action": "ALERTE TUTEUR — Étudiant inactif depuis plusieurs jours",
+    "intervention": "Contact direct dans les 24h. Vérifier les obstacles (technique, motivation, personnel).",
+    "ressources": [
+      "Forum d'entraide",
+      "Session de rattrapage",
+      "Support tuteur"
+    ],
+    "urgence": 3,
+    "facteurs_shap": {
+      "Dernier jour d'activité": 2.0544,
+      "Durée d'engagement": 0.2862,
+      "Clics totaux": 0.2134
+    },
+    "donnees_etudiant": {
+      "total_clicks": 0.0,
+      "total_days_active": 0.0,
+      "last_activity_day": 0.0,
+      "avg_score": NaN,
+      "num_submitted_assessments": NaN,
+      "studied_credits": 120.0
+    }
+  },
+  {
+    "id_student": 593846,
+    "code_module": "AAA",
+    "code_presentation": "2014J",
+    "dropout_score": 0.6472,
+    "niveau_risque": "modere",
+    "emoji_risque": "🟠",
+    "cause_principale": "inactivite",
+    "cause_label": "Inactivité comportementale",
+    "action": "NUDGE DE MOTIVATION — Relance par notification",
+    "intervention": "Envoyer un message de rappel personnalisé. Suggérer une ressource courte et accessible.",
+    "ressources": [
+      "Vidéo récapitulative",
+      "Quiz rapide",
+      "Forum de discussion"
+    ],
+    "urgence": 2,
+    "facteurs_shap": {
+      "Dernier jour d'activité": 0.2671,
+      "Jours actifs": 0.0265
+    },
+    "donnees_etudiant": {
+      "total_clicks": 436.0,
+      "total_days_active": 14.0,
+      "last_activity_day": 27.0,
+      "avg_score": 67.0,
+      "num_submitted_assessments": 1.0,
+      "studied_credits": 120.0
+    }
+  },
+  {
+    "id_student": 593987,
+    "code_module": "AAA",
+    "code_presentation": "2014J",
+    "dropout_score": 0.6948,
+    "niveau_risque": "modere",
+    "emoji_risque": "🟠",
+    "cause_principale": "inactivite",
+    "cause_label": "Inactivité comportementale",
+    "action": "NUDGE DE MOTIVATION — Relance par notification",
+    "intervention": "Envoyer un message de rappel personnalisé. Suggérer une ressource courte et accessible.",
+    "ressources": [
+      "Vidéo récapitulative",
+      "Quiz rapide",
+      "Forum de discussion"
+    ],
+    "urgence": 2,
+    "facteurs_shap": {
+      "Dernier jour d'activité": 0.5324,
+      "Jours actifs": 0.0487,
+      "Clics totaux": 0.0088
+    },
+    "donnees_etudiant": {
+      "total_clicks": 395.0,
+      "total_days_active": 19.0,
+      "last_activity_day": 26.0,
+      "avg_score": 74.0,
+      "num_submitted_assessments": 1.0,
+      "studied_credits": 180.0
+    }
+  },
+  {
+    "id_student": 596288,
+    "code_module": "AAA",
+    "code_presentation": "2014J",
+    "dropout_score": 0.5395,
+    "niveau_risque": "modere",
+    "emoji_risque": "🟠",
+    "cause_principale": "inactivite",
+    "cause_label": "Inactivité comportementale",
+    "action": "NUDGE DE MOTIVATION — Relance par notification",
+    "intervention": "Envoyer un message de rappel personnalisé. Suggérer une ressource courte et accessible.",
+    "ressources": [
+      "Vidéo récapitulative",
+      "Quiz rapide",
+      "Forum de discussion"
+    ],
+    "urgence": 2,
+    "facteurs_shap": {
+      "Dernier jour d'activité": 0.4054,
+      "Durée d'engagement": 0.0461,
+      "Clics totaux": 0.0394
+    },
+    "donnees_etudiant": {
+      "total_clicks": 50.0,
+      "total_days_active": 4.0,
+      "last_activity_day": 18.0,
+      "avg_score": 85.0,
+      "num_submitted_assessments": 1.0,
+      "studied_credits": 120.0
+    }
+  },
+  {
+    "id_student": 598070,
+    "code_module": "AAA",
+    "code_presentation": "2014J",
+    "dropout_score": 0.9453,
+    "niveau_risque": "critique",
+    "emoji_risque": "🔴",
+    "cause_principale": "inactivite",
+    "cause_label": "Inactivité comportementale",
+    "action": "ALERTE TUTEUR — Étudiant inactif depuis plusieurs jours",
+    "intervention": "Contact direct dans les 24h. Vérifier les obstacles (technique, motivation, personnel).",
+    "ressources": [
+      "Forum d'entraide",
+      "Session de rattrapage",
+      "Support tuteur"
+    ],
+    "urgence": 3,
+    "facteurs_shap": {
+      "Dernier jour d'activité": 1.8057,
+      "Durée d'engagement": 0.2565,
+      "Jours actifs": 0.0675
+    },
+    "donnees_etudiant": {
+      "total_clicks": 3.0,
+      "total_days_active": 1.0,
+      "last_activity_day": -3.0,
+      "avg_score": NaN,
+      "num_submitted_assessments": NaN,
+      "studied_credits": 60.0
+    }
+  },
+  {
+    "id_student": 603861,
+    "code_module": "AAA",
+    "code_presentation": "2014J",
+    "dropout_score": 0.7685,
+    "niveau_risque": "critique",
+    "emoji_risque": "🔴",
+    "cause_principale": "difficulte_academique",
+    "cause_label": "Difficulté académique",
+    "action": "SOUTIEN ACADÉMIQUE URGENT — Intervention pédagogique immédiate",
+    "intervention": "Orienter vers ressources de remédiation. Proposer une session de tutorat.",
+    "ressources": [
+      "Ressources de remédiation",
+      "Tutorat individuel",
+      "Exercices corrigés"
+    ],
+    "urgence": 3,
+    "facteurs_shap": {
+      "Évaluations soumises": 0.9408,
+      "Moyenne CMA": 0.2181,
+      "Score moyen": 0.1907
+    },
+    "donnees_etudiant": {
+      "total_clicks": 34.0,
+      "total_days_active": 10.0,
+      "last_activity_day": 36.0,
+      "avg_score": 62.66666666666666,
+      "num_submitted_assessments": 6.0,
+      "studied_credits": 60.0
+    }
+  },
+  {
+    "id_student": 608440,
+    "code_module": "AAA",
+    "code_presentation": "2014J",
+    "dropout_score": 0.9828,
+    "niveau_risque": "critique",
+    "emoji_risque": "🔴",
+    "cause_principale": "inactivite",
+    "cause_label": "Inactivité comportementale",
+    "action": "ALERTE TUTEUR — Étudiant inactif depuis plusieurs jours",
+    "intervention": "Contact direct dans les 24h. Vérifier les obstacles (technique, motivation, personnel).",
+    "ressources": [
+      "Forum d'entraide",
+      "Session de rattrapage",
+      "Support tuteur"
+    ],
+    "urgence": 3,
+    "facteurs_shap": {
+      "Dernier jour d'activité": 2.3156,
+      "Durée d'engagement": 0.3007,
+      "Clics totaux": 0.0313
+    },
+    "donnees_etudiant": {
+      "total_clicks": 187.0,
+      "total_days_active": 6.0,
+      "last_activity_day": -15.0,
+      "avg_score": NaN,
+      "num_submitted_assessments": NaN,
+      "studied_credits": 120.0
+    }
+  },
+  {
+    "id_student": 623710,
+    "code_module": "AAA",
+    "code_presentation": "2014J",
+    "dropout_score": 0.9858,
+    "niveau_risque": "critique",
+    "emoji_risque": "🔴",
+    "cause_principale": "inactivite",
+    "cause_label": "Inactivité comportementale",
+    "action": "ALERTE TUTEUR — Étudiant inactif depuis plusieurs jours",
+    "intervention": "Contact direct dans les 24h. Vérifier les obstacles (technique, motivation, personnel).",
+    "ressources": [
+      "Forum d'entraide",
+      "Session de rattrapage",
+      "Support tuteur"
+    ],
+    "urgence": 3,
+    "facteurs_shap": {
+      "Dernier jour d'activité": 2.0295,
+      "Durée d'engagement": 0.2851,
+      "Clics totaux": 0.2082
+    },
+    "donnees_etudiant": {
+      "total_clicks": 0.0,
+      "total_days_active": 0.0,
+      "last_activity_day": 0.0,
+      "avg_score": NaN,
+      "num_submitted_assessments": NaN,
+      "studied_credits": 120.0
+    }
+  },
+  {
+    "id_student": 628312,
+    "code_module": "AAA",
+    "code_presentation": "2014J",
+    "dropout_score": 0.9418,
+    "niveau_risque": "critique",
+    "emoji_risque": "🔴",
+    "cause_principale": "inactivite",
+    "cause_label": "Inactivité comportementale",
+    "action": "ALERTE TUTEUR — Étudiant inactif depuis plusieurs jours",
+    "intervention": "Contact direct dans les 24h. Vérifier les obstacles (technique, motivation, personnel).",
+    "ressources": [
+      "Forum d'entraide",
+      "Session de rattrapage",
+      "Support tuteur"
+    ],
+    "urgence": 3,
+    "facteurs_shap": {
+      "Dernier jour d'activité": 1.5502,
+      "Durée d'engagement": 0.2415,
+      "Clics totaux": 0.0496
+    },
+    "donnees_etudiant": {
+      "total_clicks": 77.0,
+      "total_days_active": 2.0,
+      "last_activity_day": 4.0,
+      "avg_score": NaN,
+      "num_submitted_assessments": NaN,
+      "studied_credits": 120.0
+    }
+  },
+  {
+    "id_student": 648130,
+    "code_module": "AAA",
+    "code_presentation": "2014J",
+    "dropout_score": 0.584,
+    "niveau_risque": "modere",
+    "emoji_risque": "🟠",
+    "cause_principale": "surcharge",
+    "cause_label": "Surcharge de crédits",
+    "action": "CONSEIL ORGANISATION — Aide à la priorisation",
+    "intervention": "Envoyer des conseils de gestion du temps. Proposer un planning hebdomadaire.",
+    "ressources": [
+      "Guide organisation",
+      "Planning type",
+      "Outils de gestion du temps"
+    ],
+    "urgence": 2,
+    "facteurs_shap": {
+      "Crédits inscrits": 1.07
+    },
+    "donnees_etudiant": {
+      "total_clicks": 171.0,
+      "total_days_active": 19.0,
+      "last_activity_day": 42.0,
+      "avg_score": 53.0,
+      "num_submitted_assessments": 1.0,
+      "studied_credits": 240.0
+    }
+  },
+  {
+    "id_student": 684180,
+    "code_module": "AAA",
+    "code_presentation": "2014J",
+    "dropout_score": 0.6252,
+    "niveau_risque": "modere",
+    "emoji_risque": "🟠",
+    "cause_principale": "surcharge",
+    "cause_label": "Surcharge de crédits",
+    "action": "CONSEIL ORGANISATION — Aide à la priorisation",
+    "intervention": "Envoyer des conseils de gestion du temps. Proposer un planning hebdomadaire.",
+    "ressources": [
+      "Guide organisation",
+      "Planning type",
+      "Outils de gestion du temps"
+    ],
+    "urgence": 2,
+    "facteurs_shap": {
+      "Crédits inscrits": 0.253
+    },
+    "donnees_etudiant": {
+      "total_clicks": 110.0,
+      "total_days_active": 7.0,
+      "last_activity_day": 27.0,
+      "avg_score": 50.0,
+      "num_submitted_assessments": 1.0,
+      "studied_credits": 120.0
+    }
+  },
+  {
+    "id_student": 1469279,
+    "code_module": "AAA",
+    "code_presentation": "2014J",
+    "dropout_score": 0.9857,
+    "niveau_risque": "critique",
+    "emoji_risque": "🔴",
+    "cause_principale": "inactivite",
+    "cause_label": "Inactivité comportementale",
+    "action": "ALERTE TUTEUR — Étudiant inactif depuis plusieurs jours",
+    "intervention": "Contact direct dans les 24h. Vérifier les obstacles (technique, motivation, personnel).",
+    "ressources": [
+      "Forum d'entraide",
+      "Session de rattrapage",
+      "Support tuteur"
+    ],
+    "urgence": 3,
+    "facteurs_shap": {
+      "Dernier jour d'activité": 2.065,
+      "Durée d'engagement": 0.2871,
+      "Clics totaux": 0.209
+    },
+    "donnees_etudiant": {
+      "total_clicks": 0.0,
+      "total_days_active": 0.0,
+      "last_activity_day": 0.0,
+      "avg_score": NaN,
+      "num_submitted_assessments": NaN,
+      "studied_credits": 120.0
+    }
+  },
+  {
+    "id_student": 1472925,
+    "code_module": "AAA",
+    "code_presentation": "2014J",
+    "dropout_score": 0.632,
+    "niveau_risque": "modere",
+    "emoji_risque": "🟠",
+    "cause_principale": "inactivite",
+    "cause_label": "Inactivité comportementale",
+    "action": "NUDGE DE MOTIVATION — Relance par notification",
+    "intervention": "Envoyer un message de rappel personnalisé. Suggérer une ressource courte et accessible.",
+    "ressources": [
+      "Vidéo récapitulative",
+      "Quiz rapide",
+      "Forum de discussion"
+    ],
+    "urgence": 2,
+    "facteurs_shap": {
+      "Dernier jour d'activité": 0.4415,
+      "Durée d'engagement": 0.1911,
+      "Jours actifs": 0.0851
+    },
+    "donnees_etudiant": {
+      "total_clicks": 141.0,
+      "total_days_active": 9.0,
+      "last_activity_day": 18.0,
+      "avg_score": 59.5,
+      "num_submitted_assessments": 2.0,
+      "studied_credits": 60.0
+    }
+  }
+]

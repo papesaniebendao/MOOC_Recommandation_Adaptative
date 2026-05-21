@@ -1,0 +1,46 @@
+prenom,cluster,cause,score,message,activites
+Amadou,1,inactivite,0.8053391,"Bonjour Amadou,
+
+Nous avons sélectionné pour vous un parcours adapté cette semaine.
+Voici les activités à privilégier :
+• Page d'accueil du cours
+• Contenus du cours
+• Forum de discussion
+
+Il est temps de reprendre pied dans ce cours ! Je te encourage à commencer par explorer la page d'accueil, puis à parcourir les contenus courts pour te reconnecter avec les concepts clés. Cela te permettra de reprendre le fil de tes études avec confiance.","[""Page d'accueil du cours"", 'Contenus du cours', 'Forum de discussion']"
+Fatou,0,difficulte_academique,0.63474554,"Bonjour Fatou,
+
+Nous avons sélectionné pour vous un parcours adapté cette semaine.
+Voici les activités à privilégier :
+• Contenus du cours
+• Ressources complémentaires
+• Forum de discussion
+
+Je suis ravi de vous aider à surmonter ces difficultés académiques ! Pour mieux comprendre les concepts, je vous recommande de consulter les ressources complémentaires et de poser vos questions sur le forum de discussion. Cela vous permettra de clarifier vos doutes et de progresser dans le cours.","['Contenus du cours', 'Ressources complémentaires', 'Forum de discussion']"
+Moussa,1,inactivite,0.98705137,"Bonjour Moussa,
+
+Nous avons sélectionné pour vous un parcours adapté cette semaine.
+Voici les activités à privilégier :
+• Page d'accueil du cours
+• Contenus du cours
+• Forum de discussion
+
+Il est temps de remettre le pied à l'étrier ! Je vous invite à vous reconnecter avec le cours en commençant par quelques contenus courts et interactifs. Essayez de parcourir la page d'accueil, de lire quelques étapes clés du cours et de participer au forum de discussion pour vous sentir de nouveau engagé.","[""Page d'accueil du cours"", 'Contenus du cours', 'Forum de discussion']"
+Aissatou,1,inactivite,0.9511787,"Bonjour Aissatou,
+
+Nous avons sélectionné pour vous un parcours adapté cette semaine.
+Voici les activités à privilégier :
+• Page d'accueil du cours
+• Contenus du cours
+• Forum de discussion
+
+Il est temps de reprendre le cours ! Nous avons remarqué que tu as été inactif ces derniers temps, mais je suis convaincu que tu es prêt à relancer ton apprentissage. Commence par parcourir la page d'accueil du cours et lise les contenus courts pour te reconnecter avec le sujet.","[""Page d'accueil du cours"", 'Contenus du cours', 'Forum de discussion']"
+Ibrahima,1,inactivite,0.9685657,"Bonjour Ibrahima,
+
+Nous avons sélectionné pour vous un parcours adapté cette semaine.
+Voici les activités à privilégier :
+• Page d'accueil du cours
+• Contenus du cours
+• Forum de discussion
+
+Je vois que tu as besoin de relancer ton moteur pour ce cours ! Pour commencer, je te suggère de explorer la page d'accueil du cours, qui présente les contenus clés et les activités à venir. N'hésite pas à te connecter au forum de discussion pour poser tes questions et partager tes idées avec les autres étudiants.","[""Page d'accueil du cours"", 'Contenus du cours', 'Forum de discussion']"

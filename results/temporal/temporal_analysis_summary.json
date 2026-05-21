@@ -1,0 +1,42 @@
+{
+    "cutoffs_analyzed": [
+        14,
+        28,
+        42
+    ],
+    "best_performance": {
+        "cutoff": 42,
+        "auc": 0.8599888688856447
+    },
+    "best_tradeoff": {
+        "cutoff": 28,
+        "auc": 0.8497016517171694,
+        "days_advance": 14
+    },
+    "earliest_detection": {
+        "cutoff": 14,
+        "auc": 0.8042165794572306,
+        "days_advance": 28
+    },
+    "auc_cost_early": 0.05577228942841417,
+    "coverage_by_cutoff": [
+        {
+            "cutoff": 14,
+            "pct_vle": 86.15653667965513,
+            "pct_assess": 14.052097076059278,
+            "pct_both": 13.352560365722702
+        },
+        {
+            "cutoff": 28,
+            "pct_vle": 88.33798668425736,
+            "pct_assess": 68.5760746172491,
+            "pct_both": 67.15859233577763
+        },
+        {
+            "cutoff": 42,
+            "pct_vle": 88.89332065167366,
+            "pct_assess": 75.30758138250545,
+            "pct_both": 73.82873623170619
+        }
+    ]
+}

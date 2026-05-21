@@ -1,0 +1,17 @@
+cluster,cluster_name,cause_shap,cause_description,activite_1,activite_2,activite_3,message_type,conseil
+0,Engagés Modérés,inactivite,Inactivité comportementale,homepage,oucontent,forumng,engagement,Reprends contact avec le cours — commence par des contenus courts
+0,Engagés Modérés,difficulte_academique,Difficulté académique,oucontent,resource,forumng,remediation,Consulte les ressources et demande de l'aide sur le forum
+0,Engagés Modérés,surcharge,Surcharge de crédits,oucontent,homepage,resource,organisation,Priorise les contenus essentiels et gère ton temps
+0,Engagés Modérés,desengagement_module,Désengagement du module,forumng,oucontent,ouwiki,motivation,Rejoins la communauté et explore des contenus variés
+1,À Risque Critique,inactivite,Inactivité comportementale,homepage,oucontent,forumng,engagement,Reprends contact avec le cours — commence par des contenus courts
+1,À Risque Critique,difficulte_academique,Difficulté académique,oucontent,resource,forumng,remediation,Consulte les ressources et demande de l'aide sur le forum
+1,À Risque Critique,surcharge,Surcharge de crédits,oucontent,homepage,resource,organisation,Priorise les contenus essentiels et gère ton temps
+1,À Risque Critique,desengagement_module,Désengagement du module,forumng,oucontent,ouwiki,motivation,Rejoins la communauté et explore des contenus variés
+2,Bien Engagés,inactivite,Inactivité comportementale,homepage,oucontent,forumng,engagement,Reprends contact avec le cours — commence par des contenus courts
+2,Bien Engagés,difficulte_academique,Difficulté académique,oucontent,resource,forumng,remediation,Consulte les ressources et demande de l'aide sur le forum
+2,Bien Engagés,surcharge,Surcharge de crédits,oucontent,homepage,resource,organisation,Priorise les contenus essentiels et gère ton temps
+2,Bien Engagés,desengagement_module,Désengagement du module,forumng,oucontent,ouwiki,motivation,Rejoins la communauté et explore des contenus variés
+3,Hyper Engagés,inactivite,Inactivité comportementale,homepage,oucontent,forumng,engagement,Reprends contact avec le cours — commence par des contenus courts
+3,Hyper Engagés,difficulte_academique,Difficulté académique,oucontent,resource,forumng,remediation,Consulte les ressources et demande de l'aide sur le forum
+3,Hyper Engagés,surcharge,Surcharge de crédits,oucontent,homepage,resource,organisation,Priorise les contenus essentiels et gère ton temps
+3,Hyper Engagés,desengagement_module,Désengagement du module,forumng,oucontent,ouwiki,motivation,Rejoins la communauté et explore des contenus variés

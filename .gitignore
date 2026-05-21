@@ -1,0 +1,10 @@
+﻿__pycache__/
+*.pyc
+.env
+*.joblib
+saved_models/
+node_modules/
+.DS_Store
+moodle_docker/volumes/
+data/raw/OULAD/
+data/processed/

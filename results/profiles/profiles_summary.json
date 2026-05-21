@@ -1,0 +1,84 @@
+{
+    "best_k": 7,
+    "silhouette_score": 0.2767356038093567,
+    "n_risk_students": 3000,
+    "profiles": [
+        {
+            "cluster": 0,
+            "name": "L'Étudiant en Difficulté Académique",
+            "description": "Engagement comportemental présent (196 clics, 11 jours actifs) mais performances académiques insuffisantes (score moyen 61). Soumet peu d'évaluations (2.2). Risque d'abandon par découragement face aux difficultés de contenu.",
+            "n": 431,
+            "pct": 14.366666666666667,
+            "dropout_score_mean": 0.7448305045011602,
+            "total_clicks_mean": 195.89791183294665,
+            "total_days_mean": 11.269141531322505,
+            "avg_score_mean": 61.0207877959927
+        },
+        {
+            "cluster": 1,
+            "name": "L'Étudiant Surchargé",
+            "description": "Volume de crédits élevé (92 crédits), engagement modéré (235 clics) mais score académique faible (47). Peu d'évaluations soumises (1.5). La surcharge administrative et académique conduit au décrochage progressif.",
+            "n": 610,
+            "pct": 20.333333333333332,
+            "dropout_score_mean": 0.6774905972459017,
+            "total_clicks_mean": 235.1032786885246,
+            "total_days_mean": 13.583606557377049,
+            "avg_score_mean": 46.742120026092635
+        },
+        {
+            "cluster": 2,
+            "name": "Le Décrocheur Précoce",
+            "description": "Quelques interactions initiales (18 clics, 1.15 jours actifs) puis abandon rapide avant le jour 3. Aucune évaluation soumise. L'abandon survient dans les toutes premières semaines, probablement par inadéquation avec le contenu ou manque de motivation initiale.",
+            "n": 52,
+            "pct": 1.7333333333333334,
+            "dropout_score_mean": 0.6205611353846153,
+            "total_clicks_mean": 18.21153846153846,
+            "total_days_mean": 1.1538461538461537,
+            "avg_score_mean": NaN
+        },
+        {
+            "cluster": 3,
+            "name": "Le Fantôme Immédiat — Risque Critique",
+            "description": "Profil le plus à risque (dropout=0.903, 30.8% des cas). Quasi aucune interaction (17 clics, 1 jour actif, last_day=0.7). S'inscrit au module mais n'utilise presque jamais la plateforme. L'abandon est quasi certain et très précoce. Intervention immédiate requise dès les premières 48h.",
+            "n": 924,
+            "pct": 30.8,
+            "dropout_score_mean": 0.9025964012337662,
+            "total_clicks_mean": 17.45995670995671,
+            "total_days_mean": 1.0151515151515151,
+            "avg_score_mean": 65.17708333333333
+        },
+        {
+            "cluster": 4,
+            "name": "Le Performeur Épuisé",
+            "description": "Profil paradoxal et scientifiquement important : très bon engagement (494 clics, 23 jours actifs, 6 évaluations) et bonnes notes (74). Malgré tout, dropout score élevé (0.815). L'abandon survient par épuisement ou démotivation tardive, non par manque de compétence. C'est le profil le plus difficile à anticiper.",
+            "n": 109,
+            "pct": 3.6333333333333333,
+            "dropout_score_mean": 0.8154119457798163,
+            "total_clicks_mean": 493.86238532110093,
+            "total_days_mean": 23.412844036697248,
+            "avg_score_mean": 74.02574517735069
+        },
+        {
+            "cluster": 5,
+            "name": "L'Étudiant Désengagé Tardif",
+            "description": "Bonnes performances académiques (score 72) mais volume de crédits excessif (114 crédits — le plus élevé). Engagement présent (318 clics) mais qui diminue progressivement. La surcharge en crédits semble être le facteur principal de l'abandon, malgré un bon niveau académique.",
+            "n": 408,
+            "pct": 13.6,
+            "dropout_score_mean": 0.6411418387745098,
+            "total_clicks_mean": 317.97549019607845,
+            "total_days_mean": 13.928921568627452,
+            "avg_score_mean": 72.02016700619642
+        },
+        {
+            "cluster": 6,
+            "name": "Le Fantôme Absolu — Risque Maximum",
+            "description": "Profil le plus extrême (dropout=0.947 — le plus élevé). Quasi aucune interaction (25 clics, 1.36 jours, last_day=0.5). S'inscrit et disparaît dans les 12-24 premières heures. Représente 15.5% des étudiants à risque. Aucune intervention pédagogique standard ne peut les retenir — nécessite un contact humain direct immédiat.",
+            "n": 466,
+            "pct": 15.533333333333333,
+            "dropout_score_mean": 0.9473284828111589,
+            "total_clicks_mean": 25.13304721030043,
+            "total_days_mean": 1.3648068669527897,
+            "avg_score_mean": 69.53623188405797
+        }
+    ]
+}

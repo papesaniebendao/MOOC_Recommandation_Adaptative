@@ -1,0 +1,42 @@
+{
+  "inactivite": {
+    "description": "Inactivité comportementale",
+    "conseil": "Reprends contact avec le cours — commence par des contenus courts",
+    "message_type": "engagement",
+    "activites": [
+      "homepage",
+      "oucontent",
+      "forumng"
+    ]
+  },
+  "difficulte_academique": {
+    "description": "Difficulté académique",
+    "conseil": "Consulte les ressources et demande de l'aide sur le forum",
+    "message_type": "remediation",
+    "activites": [
+      "oucontent",
+      "resource",
+      "forumng"
+    ]
+  },
+  "surcharge": {
+    "description": "Surcharge de crédits",
+    "conseil": "Priorise les contenus essentiels et gère ton temps",
+    "message_type": "organisation",
+    "activites": [
+      "oucontent",
+      "homepage",
+      "resource"
+    ]
+  },
+  "desengagement_module": {
+    "description": "Désengagement du module",
+    "conseil": "Rejoins la communauté et explore des contenus variés",
+    "message_type": "motivation",
+    "activites": [
+      "forumng",
+      "oucontent",
+      "ouwiki"
+    ]
+  }
+}
